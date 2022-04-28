@@ -1,8 +1,6 @@
 module.exports = {
   content: [
-    './*.html',
-    './asset/**/*.css',
-    './asset/**/*.js',
+    './asset/**/*.{css,js}',
     './*.php',
     './includes/*.php'
     ],
@@ -26,7 +24,8 @@ module.exports = {
         head: ['Source Serif Pro']
       },
       backgroundImage: {
-        'hero-pattern': "url('../asset/image/instructor-backgroung.jpg')"
+        'hero-pattern': "url('../asset/image/instructor-backgroung.jpg')",
+        'home-banner': "url('../asset/image/home-hero-bg.jpg')"
        }
     },
   },

@@ -58,7 +58,7 @@
 <!-- popup end -->
 
 <!-- Hero section -->
-<div class="hero py-8 lg:py-7">
+<div class="bg-home-banner bg-left bg-cover hero py-8 lg:py-10">
         <div class="cont ">
             <div class="lg:grid grid-cols-2 flex flex-col-reverse gap-x-10 sm:px-6 ">
 				
@@ -66,19 +66,19 @@
 				 <div class="pt-5">
 					<div class="title p-2">
 						<h1 class="keyword text-sm">best graphics, web design and digital marketing training in lagos nigeria. </h1>
-						<h2 class="text-4xl md:text-5xl lg:text-6xl font-bold">Acquire a life-changing career</h2>
+						<h2 class="text-4xl md:text-5xl text-white lg:text-6xl font-bold">Acquire a life-changing career</h2>
 					</div>
 					<!-- <div class="tagline py-3">
 						<div class="text-3xl italic">(Oh hey there, I’m Tyson.) </div>
 					</div> -->
 					<div class="sub-title py-3">
-						<p class="text-xl">Bureau of Labor Statistics estimates the 2017 median pay of a web designer to be $48,700 per year, equating to approximately $23.41 per hour.
+						<p class="text-xl text-white">Bureau of Labor Statistics estimates the 2017 median pay of a web designer to be $48,700 per year, equating to approximately $23.41 per hour.
 							<span class="font-medium">We train our students based on <span class="text-secondary">“20%theory”</span> and <span class="text-secondary">“80% practical”</span>we also give professional experience advice based on the job.</span>  </p>
-						<p class="text-xl pt-3">  Learn the latest skills to reach your professional goals from DuroMedia Academy, authorities on the Digtal skill training, Lagos Nigeria.
+						<p class="text-xl pt-3 text-white">  Learn the latest skills to reach your professional goals from DuroMedia Academy, authorities on the Digtal skill training, Lagos Nigeria.
 						</p>
 					</div>
 					<div class="button pt-5 wow fadeInRight" data-wow-delay=".5s">
-						<a href=" <?php get_site_url() ?>/masterclass"  class=" btn-primary hover:bg-primary md:text-2xl">get started.</a>
+						<a href=" <?php get_site_url() ?>/masterclass"  class=" btn-secondary hover:bg-secondary md:text-2xl">get started.</a>
 					</div>
 				</div>
 				<div class="w-full flex justify-center items-center md:py-0">
@@ -93,7 +93,7 @@
 
 
     <!-- call-to-action section -->
-    <div class="cta bg-neutral">
+    <!-- <div class="cta bg-neutral">
         <div class="cont flex items-center flex-col py-14 ">
             <div class="text-center">
                 <p class="uppercase text-md font-bold text-secondary">our approaches are</p>
@@ -106,13 +106,100 @@
                 <a href="<?php get_site_url() ?>/projects" data-wow-delay=".1s" class="wow tada bg-secondary text-white rounded-md font-medium py-3 px-7 text-base capitalize hover:bg-primary md:text-2xl">Our Projects</a> 
             </div>
         </div>
+    </div> -->
+
+    <!-- Specialization -->
+    <div class="specialization">
+        <div class="cont grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 lg:gap-6 py-14">
+            <!--  -->
+            <div class="relative block p-8 border border-black">
+               
+                <div class="mt-4 text-gray-500 sm:pr-8">
+                    <svg
+                    class="w-8 h-8 sm:w-10 sm:h-10"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
+                    ></path>
+                    </svg>
+        
+                    <h5 class="mt-4 text-xl font-bold text-gray-900">Science of Chemstry</h5>
+        
+                    <p class="mt-2 text-sm">
+                    You can manage phone, email and chat conversations all from a single mailbox.
+                    </p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="relative block p-8 border border-black">
+               
+                <div class="mt-4 text-gray-500 sm:pr-8">
+                    <svg
+                    class="w-8 h-8 sm:w-10 sm:h-10"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
+                    ></path>
+                    </svg>
+        
+                    <h5 class="mt-4 text-xl font-bold text-gray-900">Science of Chemstry</h5>
+        
+                    <p class="mt-2 text-sm">
+                    You can manage phone, email and chat conversations all from a single mailbox.
+                    </p>
+                </div>
+            </div>
+            <!--  -->
+            <dic class="relative block p-8 border border-black">
+               
+                <div class="mt-4 text-gray-500 sm:pr-8">
+                    <svg
+                    class="w-8 h-8 sm:w-10 sm:h-10"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
+                    ></path>
+                    </svg>
+        
+                    <h5 class="mt-4 text-xl font-bold text-gray-900">Science of Chemstry</h5>
+        
+                    <p class="mt-2 text-sm ">
+                    You can manage phone, email and chat conversations all from a single mailbox.
+                    </p>
+                </div>
+            </dic>
+    
+        </div>
     </div>
+   
+       
 
     <!-- instructor section -->
  	<?php get_template_part('includes/section','instructor');?>
 
     <!-- graphics section -->
-    <div class="graphics py-16">
+    <!-- <div class="graphics py-16">
         <div class="cont ">
             <div class="title pb-12 text-center">
                 <h2 class="text-4xl md:text-6xl font-bold text-primary">Go from hesitation to confidence.</h2>
@@ -159,12 +246,44 @@
                 </div>
             </div>
         </div>
+    </div> -->
+    <!--  -->
+    <div class="py-16 md:py-28">
+        <div class="flex items-center justify-center text-center pb-12">
+            <h2 class="capitalize text-3xl font-bold">programmes</h2>
+        </div>
+        <div class="cont grid sm:grid-cols-2 gap-12 sm:px-6 ">
+            <!-- <div class="w-full flex justify-center items-center py-6 md:py-0">
+                <div class=" overflow-hidden w-11/12 h-auto rounded-xl">
+                    <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04';?>/D-market.jpg" alt="" class="wow slideInLeft md:w-full h-auto">
+                </div>
+            </div> -->
+          
+            
+            <div class="relative course-card gap-4 h-96 md:h-0 bg-slate-800 p-10">
+                <span class="absolute left-12 top-12 rounded-full px-3 py-1.5 bg-green-100 text-green-600 font-medium text-sm">coming soon</span>
+                <div class="absolute left-12 bottom-12 ">
+                    <h3 class="text-3xl text-white font-bold">Crash Course</h3>
+                    <p class="text-white font-medium text-lg py-4 md:py-5">For African youth with a background in Data, Cloud or Programming. (Prerequisites apply*)</p>
+                    <a href="appointment.html" class="capitalize inline-flex px-6 py-2 font-medium rounded-sm bg-pink-400 text-purple-900">explore all courses</a>
+                </div>
+            </div>
+            <div class="relative course-card gap-4 h-96 md:h-0 bg-slate-800 p-10">
+                <span class="absolute left-12 top-12 rounded-full px-3 py-1.5 bg-green-100 text-green-600 font-medium text-sm">coming soon</span>
+                <div class="absolute left-12 bottom-12 ">
+                    <h3 class="text-3xl text-white font-bold">Crash Course</h3>
+                    <p class="text-white font-medium text-lg py-4 md:py-5">For African youth with a background in Data, Cloud or Programming. (Prerequisites apply*)</p>
+                    <a href="appointment.html" class="capitalize inline-flex px-6 py-2 font-medium rounded-sm bg-pink-400 text-purple-900">explore all courses</a>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
 
     <!-- web-design section -->
-    <div class="web-design py-8 lg:py-16 bg-neutral">
+    <!-- <div class="web-design py-8 lg:py-16 bg-neutral">
         <div class="cont ">
             <div class="lg:grid grid-cols-2 flex flex-col-reverse gap-x-10 sm:px-6 ">
                 <div class="pt-5">
@@ -218,11 +337,11 @@
                 
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- digital marketing section -->
-    <div class="digital-market py-8 lg:py-16 bg-white-100">
+    <!-- <div class="digital-market py-8 lg:py-16 bg-white-100">
         <div class="cont ">
             <div class="lg:grid grid-cols-2 gap-x-10 sm:px-6 ">
                 <div class="flex justify-center">
@@ -269,6 +388,42 @@
 
                 
             </div>
+        </div>
+    </div> -->
+
+    <!-- why choose us -->
+    <div class="py-16 bg-slate-100">
+        <div class="cont grid md:grid-cols-2 gap-12 sm:px-6">
+           
+            <div class="text-center sm:text-left">
+                <span class="font- text-base">Why should you study with Duromedia?</span>
+                <h3 class="text-3xl font-bold py-4 md:py-5">Job-ready talent Superior outcomes</h3>
+                <p class="font-medium text-lg ">We partner with leading technology companies to learn how technology is transforming industries, and teach the critical tech skills that companies are looking for in their workforce. With our powerful and flexible digital education platform, even the busiest learners can prepare themselves to take on the most in-demand tech roles.</p>
+            </div>
+            <div class="flex flex-col sm:items-center sm:justify-center gap-y-3">
+                <div class="md:border-b border-slate-300 md:py-4 grid sm:grid-cols-2 gap-x-8 gap-y-3 sm:gap-y-0">
+                    <div class="flex items-center gap-4 border-2 border-black p-4 md:p-0 md:border-0">
+                        <img loading="lazy"  src="https://alx-t.com/wp-content/uploads/2022/03/icon-sa-4.png" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
+                        <h4 class="font-semibold text-lg lg:text-xl">Certified Certificate</h4>
+                    </div>
+                    <div class="flex items-center gap-4 border-2 border-black p-4 md:p-0 md:border-0">
+                        <img loading="lazy"  src="https://alx-t.com/wp-content/uploads/2022/03/icon-sa-4.png" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
+                        <h4 class="font-semibold text-lg lg:text-xl">Certified Certificate</h4>
+                    </div>
+                </div>
+                <div class="md:border-b border-slate-300 md:py-4 grid sm:grid-cols-2 gap-x-8 gap-y-3 sm:gap-y-0">
+                    <div class="flex items-center gap-4 border-2 border-black p-4 md:p-0 md:border-0">
+                        <img loading="lazy"  src="https://alx-t.com/wp-content/uploads/2022/03/icon-sa-4.png" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
+                        <h4 class="font-semibold text-lg lg:text-xl">Certified Certificate</h4>
+                    </div>
+                    <div class="flex items-center gap-4 border-2 border-black p-4 md:p-0 md:border-0">
+                        <img loading="lazy"  src="https://alx-t.com/wp-content/uploads/2022/03/icon-sa-4.png" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
+                        <h4 class="font-semibold text-lg lg:text-xl">Certified Certificate</h4>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
 

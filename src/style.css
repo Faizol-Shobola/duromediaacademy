@@ -35,3 +35,23 @@
     @apply text-sm;
     @apply mt-5;
 }
+.btn-secondary {
+    @apply bg-secondary; 
+    @apply text-white;
+    @apply rounded-md;
+    @apply font-medium;
+    @apply py-3;
+    @apply px-7;
+    @apply text-base;
+    @apply capitalize;
+}
+.btn-secondary-sm {
+    @apply text-white;
+    @apply bg-secondary;
+    @apply rounded-md;
+    @apply font-medium;
+    @apply py-3;
+    @apply px-10;
+    @apply text-sm;
+    @apply mt-5;
+}

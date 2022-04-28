@@ -13,89 +13,91 @@
 <div class="flex flex-col  min-h-screen">
 <!-- This example requires Tailwind CSS v2.0+ -->
 <header>
-  <div class="topbar grid grid-cols-2 px-2 md:px-8 h-10 bg-primary">
-    <div class="flex justify-start items-center text-white">
-      <div class="icon-instagram mx-2">
-        <a href="tel:+2348052835221" class="text-md">
-            <i class="fas fa-phone transform rotate-90"></i>
-            <span class="pl-2 text-sm hidden md:inline">+2348052835221</span>
-        </a>
-      </div>
-      <div class="icon-instagram mx-2">
-        <a href="mailto:info@duromedia.com.ng" class="text-md">
-            <i class="fas fa-envelope"></i>
-            <span class="pl-2 text-sm hidden md:inline">info@duromedia.com.ng</span>
-        </a>
-      </div>
-    </div>
-    <div class="flex justify-end items-center text-white">
-      <div class="icon-instagram mx-2 ">
-          <a href="https://www.instagram.com/duroacademy/" class="text-sm">
-              <i class="fab fa-instagram"></i>
+  <div class="topbarpx-2 md:px-8 h-10 bg-primary">
+    <div class=" grid grid-cols-2 cont">
+      <div class="flex justify-start items-center text-white">
+        <div class="icon-instagram mx-2">
+          <a href="tel:+2348052835221" class="text-md">
+              <i class="fas fa-phone transform rotate-90"></i>
+              <span class="pl-2 text-sm hidden md:inline">+2348052835221</span>
           </a>
-      </div>
-      <div class="icon-facebook mx-2 ">
-          <a href="https://www.facebook.com/duroacademy" class="text-sm">
-              <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="icon-instagram mx-2">
+          <a href="mailto:info@duromedia.com.ng" class="text-md">
+              <i class="fas fa-envelope"></i>
+              <span class="pl-2 text-sm hidden md:inline">info@duromedia.com.ng</span>
           </a>
+        </div>
       </div>
-      <div class="icon-twittwer mx-2 ">
-          <a href="https://twitter.com/duroacademy" class="text-sm">
-              <i class="fab fa-twitter"></i>
-          </a>
-      </div>
-      <div class="icon-linkedin mx-2 hidden">
-          <a href="#" class="text-sm">
-              <i class="fab fa-linkedin-in"></i>
-          </a>
+      <div class="flex justify-end items-center text-white">
+        <div class="icon-instagram mx-2 ">
+            <a href="https://www.instagram.com/duroacademy/" class="text-sm">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        <div class="icon-facebook mx-2 ">
+            <a href="https://www.facebook.com/duroacademy" class="text-sm">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+        <div class="icon-twittwer mx-2 ">
+            <a href="https://twitter.com/duroacademy" class="text-sm">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <div class="icon-linkedin mx-2 hidden">
+            <a href="#" class="text-sm">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
       </div>
     </div>
   </div>
   <div class="header animate__animated animate__slideInDown relative bg-white z-10">
-  <div class="mx-auto px-5 sm:px-6">
-    <div class="md:py-5 md:flex md:items-center md:justify-between md:space-x-14 h-24 md:h-nav">
-      <div class="flex justify-between items-center h-full">
-        <div class="">
-          <a href="<?php $uploads = wp_upload_dir();?>">
-            <?php 
-              if ( function_exists( 'the_custom_logo' ) ) {
-                the_custom_logo();
-              }
-            ?>
-          </a>	 
+    <div class="cont mx-auto px-5 sm:px-6">
+      <div class="md:py-5 md:flex md:items-center md:justify-between md:space-x-14 h-24 md:h-nav">
+        <div class="flex justify-between items-center h-full">
+          <div class="">
+            <a href="<?php $uploads = wp_upload_dir();?>">
+              <?php 
+                if ( function_exists( 'the_custom_logo' ) ) {
+                  the_custom_logo();
+                }
+              ?>
+            </a>	 
+          </div>
+    
+          <div class="md:hidden">
+            <button type="button" class="open_link-toggle bg-white rounded-md p-2 text-gray-400 hover:text-gray-500 hover:bg-gray-100">
+              <span class="sr-only">Open menu</span>
+              <!-- Heroicon name: menu -->
+              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
         </div>
-  
-        <div class="md:hidden">
-          <button type="button" class="open_link-toggle bg-white rounded-md p-2 text-gray-400 hover:text-gray-500 hover:bg-gray-100">
-            <span class="sr-only">Open menu</span>
-            <!-- Heroicon name: menu -->
-            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
-        </div>
+
+
+        <?php
+      wp_nav_menu( 
+          array(
+          'menu'              => "primary", // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
+          'menu_class'        => "hidden md:flex space-x-10", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
+          'container'         => "nav", // (string) Whether to wrap the ul, and what to wrap it with. Default 'div'.
+          'container_class'   => "h-11 ",
+          'link_before'       => '<span class="">', // (string) Text before the link text.
+          'link_after'        => '</span>', // (string) Text after the link text.
+          'depth'             => "2", // (int) How many levels of the hierarchy are to be included. 0 means all. Default 0.
+          'theme_location'    => "top-menu", // (string) Theme location to be used. Must be registered with register_nav_menu() in order to be selectable by the user.
+          'item_spacing'      => "discard", // (string) Whether to preserve whitespace within the menu's HTML. Accepts 'preserve' or 'discard'. Default 'preserve'.
+          ) );
+
+      ?>
       </div>
 
-
-      <?php
-    wp_nav_menu( 
-        array(
-        'menu'              => "primary", // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
-        'menu_class'        => "hidden md:flex space-x-10", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
-        'container'         => "nav", // (string) Whether to wrap the ul, and what to wrap it with. Default 'div'.
-        'container_class'   => "h-11 ",
-        'link_before'       => '<span class="">', // (string) Text before the link text.
-        'link_after'        => '</span>', // (string) Text after the link text.
-        'depth'             => "2", // (int) How many levels of the hierarchy are to be included. 0 means all. Default 0.
-        'theme_location'    => "top-menu", // (string) Theme location to be used. Must be registered with register_nav_menu() in order to be selectable by the user.
-        'item_spacing'      => "discard", // (string) Whether to preserve whitespace within the menu's HTML. Accepts 'preserve' or 'discard'. Default 'preserve'.
-        ) );
-
-    ?>
+    
     </div>
-
-   
-  </div>
 
   <!--
     Mobile menu, show/hide based on mobile menu state.
@@ -116,7 +118,7 @@
 
 		<div class="sticky top-0 bottom-0 z-20 overflow-y-auto h-auto mobile-menu hidden inset-x-0 transition transform origin-top-right md:hidden">
       <div class="shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
-        <div class="pt-5 pb-6 px-5">
+        <div class="cont pt-5 pb-6 px-5">
         
           <div class="mobile">
       
