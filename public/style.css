@@ -672,6 +672,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.625rem;
 }
 
+.mx-1{
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
@@ -685,11 +690,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mx-1{
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
 }
 
 .my-20{
@@ -784,10 +784,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 10rem;
 }
 
-.h-full{
-  height: 100%;
-}
-
 .h-auto{
   height: auto;
 }
@@ -802,6 +798,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-44{
   height: 11rem;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .h-8{
@@ -1065,13 +1065,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1.25rem;
 }
 
+.gap-y-10{
+  row-gap: 2.5rem;
+}
+
 .gap-x-10{
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
-}
-
-.gap-y-10{
-  row-gap: 2.5rem;
 }
 
 .gap-x-2{
@@ -1185,12 +1185,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 2px;
 }
 
-.border-4{
-  border-width: 4px;
-}
-
 .border-8{
   border-width: 8px;
+}
+
+.border-4{
+  border-width: 4px;
 }
 
 .border-b-2{
@@ -1348,10 +1348,6 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-position: top;
 }
 
-.p-5{
-  padding: 1.25rem;
-}
-
 .p-2{
   padding: 0.5rem;
 }
@@ -1384,24 +1380,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.25rem;
 }
 
+.p-5{
+  padding: 1.25rem;
+}
+
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .py-10{
@@ -1454,6 +1439,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.5rem;
 }
 
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1467,6 +1457,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .px-3{
@@ -1492,6 +1487,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .py-20{
@@ -1688,21 +1688,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-style: normal;
 }
 
-.leading-loose{
-  line-height: 2;
-}
-
 .leading-7{
   line-height: 1.75rem;
 }
 
-.tracking-widest{
-  letter-spacing: 0.1em;
+.leading-loose{
+  line-height: 2;
 }
 
-.text-primary{
-  --tw-text-opacity: 1;
-  color: rgb(0 51 153 / var(--tw-text-opacity));
+.tracking-widest{
+  letter-spacing: 0.1em;
 }
 
 .text-secondary{
@@ -1718,6 +1713,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-900{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-primary{
+  --tw-text-opacity: 1;
+  color: rgb(0 51 153 / var(--tw-text-opacity));
 }
 
 .text-gray-500{
@@ -2191,12 +2191,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 5.7rem;
   }
 
-  .md\:h-80{
-    height: 20rem;
-  }
-
   .md\:h-60{
     height: 15rem;
+  }
+
+  .md\:h-80{
+    height: 20rem;
   }
 
   .md\:h-3\/5{
@@ -2215,12 +2215,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 6rem;
   }
 
-  .md\:w-full{
-    width: 100%;
-  }
-
   .md\:w-3\/5{
     width: 60%;
+  }
+
+  .md\:w-full{
+    width: 100%;
   }
 
   .md\:w-auto{
@@ -2407,11 +2407,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 1;
   }
 
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
@@ -2430,6 +2425,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:text-lg{
