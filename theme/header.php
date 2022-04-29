@@ -113,21 +113,6 @@
       </div>
 
 
-      <?php
-    wp_nav_menu( 
-        array(
-		'menu'        		=> 'primary', // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
-        'menu_class'        => "hidden md:flex space-x-10", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
-        'container'         => "nav", // (string) Whether to wrap the ul, and what to wrap it with. Default 'div'.
-        'container_class'   => "h-11 ",
-        'link_before'       => '<span class="">', // (string) Text before the link text.
-        'link_after'        => '</span>', // (string) Text after the link text.
-        'depth'             => "2", // (int) How many levels of the hierarchy are to be included. 0 means all. Default 0.
-        'theme_location'    => "top-menu", // (string) Theme location to be used. Must be registered with register_nav_menu() in order to be selectable by the user.
-        'item_spacing'      => "discard", // (string) Whether to preserve whitespace within the menu's HTML. Accepts 'preserve' or 'discard'. Default 'preserve'.
-        ) );
-
-    ?>
     </div>
 
   <!--

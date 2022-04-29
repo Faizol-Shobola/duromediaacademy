@@ -17,8 +17,8 @@ get_header();
     </div>
 
     <div class="course">
-        <div class="cont py-14">
-            <div class="md:grid grid-cols-2 gap-y-10 md:gap-x-10 w-full">
+        <div class="cont py-24">
+            <div class="grid md:grid-cols-2 gap-y-10 md:gap-x-20 w-full">
 
                 <?php get_template_part('template-parts/content','courses');?>
                
@@ -26,8 +26,8 @@ get_header();
         </div>
     </div>
 
-	<!-- testimonial section -->
- 	<?php get_template_part('template-parts/content','testimonial');?>
+	<!-- testimonial section-->
+ 	<?php // get_template_part('template-parts/content','testimonial');?> 
 
 
 <?php get_footer(); ?>
