@@ -271,8 +271,11 @@ div.news-form input[type="submit"]:hover,
 	color: #E37335;
 }
 
-
-
+@media screen and (min-width: 767px) {
+    .course-card  {
+        height: 550px;
+    }
+}
 
 @media screen and (max-width: 767px){
 

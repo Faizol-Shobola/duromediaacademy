@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying Public speaking pages
+ * The template for displaying Public speaking page
  *
- * @link https://codex.wordpress.org/Creating_an_Error_404_Page
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package duromediaacademy
  */

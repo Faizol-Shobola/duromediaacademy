@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying Digital Marketing pages
+ * The template for displaying Digital Marketing page
  *
- * @link https://codex.wordpress.org/Creating_an_Error_404_Page
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package duromediaacademy
  */
