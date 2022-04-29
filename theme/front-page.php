@@ -126,7 +126,7 @@ get_header();
     </div> -->
 
     <!-- Specialization -->
-    <div class="specialization">
+    <div class="specialization pt-10">
         <div class="cont grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 lg:gap-6 py-14">
             <!--  -->
             <div class="relative block p-8 border border-black">
@@ -209,11 +209,7 @@ get_header();
     
         </div>
     </div>
-   
-       
 
-    <!-- instructor section -->
- 	<?php get_template_part('template-parts/content','instructor');?>
 
     <!-- graphics section -->
     <!-- <div class="graphics py-16">
@@ -277,20 +273,58 @@ get_header();
             </div> -->
           
             
-            <div class="relative course-card gap-4 h-96 md:h-0 bg-slate-800 p-10">
-                <span class="absolute left-12 top-12 rounded-full px-3 py-1.5 bg-green-100 text-green-600 font-medium text-sm">coming soon</span>
-                <div class="absolute left-12 bottom-12 ">
+            <!-- <div class="relative course-card gap-4 h-96 md:h-0 bg-slate-800 p-10">
+                <span class="absolute left-5 md:left-8 lg:left-12 top-5 md:top-12 rounded-full px-3 py-1.5 bg-green-100 text-green-600 font-medium text-sm">coming soon</span>
+                <div class="absolute left-5 md:left-8 lg:left-12 bottom-5 md:bottom-12 ">
                     <h3 class="text-3xl text-white font-bold">Crash Course</h3>
                     <p class="text-white font-medium text-lg py-4 md:py-5">For African youth with a background in Data, Cloud or Programming. (Prerequisites apply*)</p>
                     <a href="appointment.html" class="capitalize inline-flex px-6 py-2 font-medium rounded-sm bg-pink-400 text-purple-900">explore all courses</a>
                 </div>
             </div>
             <div class="relative course-card gap-4 h-96 md:h-0 bg-slate-800 p-10">
-                <span class="absolute left-12 top-12 rounded-full px-3 py-1.5 bg-green-100 text-green-600 font-medium text-sm">coming soon</span>
-                <div class="absolute left-12 bottom-12 ">
+                <span class="absolute left-5 md:left-8 lg:left-12 top-5 md:top-12 rounded-full px-3 py-1.5 bg-green-100 text-green-600 font-medium text-sm">coming soon</span>
+                <div class="absolute left-5 md:left-8 lg:left-12 bottom-5 md:bottom-12 ">
                     <h3 class="text-3xl text-white font-bold">Crash Course</h3>
                     <p class="text-white font-medium text-lg py-4 md:py-5">For African youth with a background in Data, Cloud or Programming. (Prerequisites apply*)</p>
                     <a href="appointment.html" class="capitalize inline-flex px-6 py-2 font-medium rounded-sm bg-pink-400 text-purple-900">explore all courses</a>
+                </div>
+            </div> -->
+
+
+            <div class="relative block bg-black group" href="">
+                <img  src="https://www.hyperui.dev/photos/man-6.jpeg" alt="" 
+                    class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75 opacity-50"
+                />
+                <div class="relative p-8">
+                    <div class="mt-72">
+                    <div class="">
+                        <p class="text-2xl font-bold text-secondary capitalize">Crash course</p>
+                        <p class="text-lg font-medium text-white py-6">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                            perferendis hic asperiores quibusdam quidem voluptates doloremque
+                            reiciendis nostrum harum. Repudian72e?
+                        </p>
+                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative block bg-black group" href="">
+                <img  src="https://www.hyperui.dev/photos/man-6.jpeg" alt="" 
+                    class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75 opacity-50"
+                />
+                <div class="relative p-8">
+                    <div class="mt-72">
+                    <div class="">
+                        <p class="text-2xl font-bold text-secondary capitalize">Complete bootcamp</p>
+                        <p class="text-lg font-medium text-white py-6">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                            perferendis hic asperiores quibusdam quidem voluptates doloremque
+                            reiciendis nostrum harum. Repudian72e?
+                        </p>
+                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
+                    </div>
+                    </div>
                 </div>
             </div>
 
@@ -409,11 +443,11 @@ get_header();
     </div> -->
 
     <!-- why choose us -->
-    <div class="py-16 bg-slate-100">
+    <div class="py-20 bg-slate-100">
         <div class="cont grid md:grid-cols-2 gap-12 sm:px-6">
            
-            <div class="text-center sm:text-left">
-                <span class="font- text-base">Why should you study with Duromedia?</span>
+            <div class="w-full lg:w-4/5">
+                <span class="font- text-base">Why should you study with Duromedia Academy?</span>
                 <h3 class="text-3xl font-bold py-4 md:py-5">Job-ready talent Superior outcomes</h3>
                 <p class="font-medium text-lg ">We partner with leading technology companies to learn how technology is transforming industries, and teach the critical tech skills that companies are looking for in their workforce. With our powerful and flexible digital education platform, even the busiest learners can prepare themselves to take on the most in-demand tech roles.</p>
             </div>
@@ -447,30 +481,27 @@ get_header();
     <!-- testimony section -->
  	<?php get_template_part('template-parts/content','testimonial');?>
 	
+    <!-- CTA section -->
+    <section class="bg-home-banner text-white">
+        <div class="max-w-screen-xl px-4 py-24 mx-auto lg:items-center lg:flex">
+            <div class="max-w-3xl mx-auto text-center">
+            <h1 class="text-3xl font-extrabold sm:text-5xl">Understand User Flow.</h1>
 
-    <!-- consultation section -->
-	    <div class="consultation py-16">
-        <div class="cont">
-            <div class="d-block md:grid grid-cols-7 gap-x-10 p-6 md:p-16 rounded-xl call-to-action wow flipInX" data-wow-delay=".2s"> 
-                <div class="col-span-4">
-					<div class="text-center md:text-left">
-						<div class="title">
-							<h4 class="text-4xl font-bold py-2"><span class="text-secondary">2 in 1 </span>Design MasterClass</h4>
-						</div>
-						<div class="sub-title">
-						   <p class="text-xl py-1">Join our six Weeks Graphic & Website Design Practical Training</p>
-						</div>
-                 	</div>   
-                </div>
-                <div class="flex justify-center col-span-3">
-                    <div class="button py-3 flex justify-center items-center">
-                        <a href="<?php get_site_url() ?>/masterclass" class="btn-primary hover:bg-primary md:text-2xl">Get Started</a>
-                    </div>
-                </div>
+            <p class="max-w-xl mx-auto mt-4 sm:leading-relaxed sm:text-xl">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!
+            </p>
 
-                
+            <div class="flex flex-wrap justify-center gap-4 mt-8">
+                <a class="block w-full px-12 py-3 text-sm font-medium text-white bg-primary border border-primary rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring" href="/get-started">
+                Get Started
+                </a>
+            </div>
             </div>
         </div>
-    </div>
+    </section>
+
+
+    <!-- instructor section -->
+ 	<?php get_template_part('template-parts/content','instructor');?>
 
     <?php get_footer(); ?>

@@ -38,24 +38,31 @@ function setPostViews($postID) {
 function my_sidebars() {
 
 	register_sidebar(
-	array(
-	 'name' => 'Blog sidebar',
-	 'id' => 'blog-sidebar',
-   )
+		array(
+		'name' => 'Blog sidebar',
+		'id' => 'blog-sidebar',
+		)
    );
   
    register_sidebar(
-	array(
-	  'name' => 'Footer sidebar',
-	  'id' => 'footer-sidebar',
-	)
+		array(
+		'name' => 'Footer 1',
+		'id' => 'footer-1',
+		)
 	);
   
 	register_sidebar(
 	  array(
-		'name' => 'Footer sidebar 2',
-		'id' => 'footer-sidebar-2',
+		'name' => 'Footer 2',
+		'id' => 'footer-2',
 	  )
+	);
+
+	register_sidebar(
+		array(
+		  'name' => 'Footer 3',
+		  'id' => 'footer-3',
+		)
 	  );
   
   }

@@ -27,20 +27,40 @@ get_header();
             </div> -->
             
             
-            <div class="relative course-card gap-4 h-96 md:h-0 bg-slate-800 p-10">
-                <span class="absolute left-12 top-12 rounded-full px-3 py-1.5 bg-green-100 text-green-600 font-medium text-sm">coming soon</span>
-                <div class="absolute left-12 bottom-12 ">
-                    <h3 class="text-3xl text-white font-bold">Crash Course</h3>
-                    <p class="text-white font-medium text-lg py-4 md:py-5">For African youth with a background in Data, Cloud or Programming. (Prerequisites apply*)</p>
-                    <a href="appointment.html" class="capitalize inline-flex px-6 py-2 font-medium rounded-sm bg-pink-400 text-purple-900">explore all courses</a>
+            <div class="relative block bg-black group" href="">
+                <img  src="https://www.hyperui.dev/photos/man-6.jpeg" alt="" 
+                    class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75 opacity-50"
+                />
+                <div class="relative p-8">
+                    <div class="mt-72">
+                    <div class="">
+                        <p class="text-2xl font-bold text-secondary capitalize">Crash course</p>
+                        <p class="text-lg font-medium text-white py-6">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                            perferendis hic asperiores quibusdam quidem voluptates doloremque
+                            reiciendis nostrum harum. Repudian72e?
+                        </p>
+                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
+                    </div>
+                    </div>
                 </div>
             </div>
-            <div class="relative course-card gap-4 h-96 md:h-0 bg-slate-800 p-10">
-                <span class="absolute left-12 top-12 rounded-full px-3 py-1.5 bg-green-100 text-green-600 font-medium text-sm">coming soon</span>
-                <div class="absolute left-12 bottom-12 ">
-                    <h3 class="text-3xl text-white font-bold">Crash Course</h3>
-                    <p class="text-white font-medium text-lg py-4 md:py-5">For African youth with a background in Data, Cloud or Programming. (Prerequisites apply*)</p>
-                    <a href="appointment.html" class="capitalize inline-flex px-6 py-2 font-medium rounded-sm bg-pink-400 text-purple-900">explore all courses</a>
+            <div class="relative block bg-black group" href="">
+                <img  src="https://www.hyperui.dev/photos/man-6.jpeg" alt="" 
+                    class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75 opacity-50"
+                />
+                <div class="relative p-8">
+                    <div class="mt-72">
+                    <div class="">
+                        <p class="text-2xl font-bold text-secondary capitalize">Complete bootcamp</p>
+                        <p class="text-lg font-medium text-white py-6">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                            perferendis hic asperiores quibusdam quidem voluptates doloremque
+                            reiciendis nostrum harum. Repudian72e?
+                        </p>
+                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
+                    </div>
+                    </div>
                 </div>
             </div>
 
