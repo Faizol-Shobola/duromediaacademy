@@ -63,7 +63,14 @@ function my_sidebars() {
 		  'name' => 'Footer 3',
 		  'id' => 'footer-3',
 		)
-	  );
+	);
+
+	  register_sidebar(
+		array(
+		  'name' => 'Footer 5',
+		  'id' => 'footer-5',
+		)
+	);
   
   }
   add_action('widgets_init','my_sidebars');

@@ -62,8 +62,8 @@
 </footer> -->
 
 
-<footer class="bg-primary text-white">
-  <div class="max-w-screen-xl px-4 py-16 mx-auto space-y-12 sm:px-6 lg:px-8">
+<footer class="footer bg-primary text-white">
+  <div class="max-w-screen-xl px-4 py-10 mx-auto space-y-5 sm:px-6 lg:px-8">
     <div class="sm:items-center sm:justify-between sm:flex">
       <div class="flex gap-4 list-type-none">
         <?php if(is_active_sidebar('footer-1')):?>
@@ -99,16 +99,9 @@
       </div>
 
       <div>
-        <p class="font-medium">
-          Legal
-        </p>
-
-        <nav class="flex flex-col mt-4 space-y-2 text-sm text-white">
-          <a class="hover:opacity-75" href=""> Privacy Policy </a>
-          <a class="hover:opacity-75" href=""> Terms & Conditions </a>
-          <a class="hover:opacity-75" href=""> Returns Policy </a>
-          <a class="hover:opacity-75" href=""> Accessibility </a>
-        </nav>
+        <?php if(is_active_sidebar('footer-5')):?>
+          <?php dynamic_sidebar('footer-5');?>
+        <?php endif;?>
       </div>
     </div>
 
