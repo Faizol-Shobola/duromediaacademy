@@ -347,6 +347,14 @@ div.news-form input[type="submit"]:hover,
         font-size: 12px;
         padding: 10px 0px;
     }
+
+   
+}
+
+@media screen and (min-width: 767px) {
+    .course-card  {
+        height: 550px;
+    }
 }
 
 /* animation amd key frames */

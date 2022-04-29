@@ -73,27 +73,27 @@ function my_sidebars() {
   
   
   //custom post (courses)
-  function courses_post_type() {
+  function crashCourses_post_type() {
    $args = array(
 	  'labels'      => array(
-		'name'          => 'Courses',
+		'name'          => 'Crash Courses',
 		'singular_name' => 'Course',
 	  ),
 	  'public'      => true,
 	  'hierarchical' => true,
 	  'has_archive' => true,
-	  'rewrite'     => array( 'slug' => 'courses' ),
+	  'rewrite'     => array( 'slug' => 'crash-course' ),
 	  'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
 	  
 	);
-	register_post_type('courses', $args );
+	register_post_type('crashcourses', $args );
   }
-  add_action('init', 'courses_post_type');
+  add_action('init', 'crashCourses_post_type');
   
-  //course taxonomies(courses)
-  function course_taxonomy() {
+  //course taxonomies(crash courses)
+  function crashCourse_taxonomy() {
 	$labels = array(
-		'name'              => 'Courses Category', 
+		'name'              => 'Crash Courses Category', 
 		'singular_name'     => 'category',
 		'search_items'      => __( 'Search courses' ),
 		'all_items'         => __( 'All Courses' ),
@@ -111,11 +111,57 @@ function my_sidebars() {
 		'show_ui'           => true,
 		'show_admin_column' => true,
 		'query_var'         => true,
-		'rewrite'           => [ 'slug' => 'course' ],
+		'rewrite'           => [ 'slug' => 'crash-course' ],
 	);
-	register_taxonomy( 'course', [ 'courses' ], $args );
+	register_taxonomy( 'crashcourse', [ 'crashcourses' ], $args );
   }
-  add_action( 'init', 'course_taxonomy' );
+  add_action( 'init', 'crashCourse_taxonomy' );
+
+
+ //custom post (full courses)
+ function fullCourses_post_type() {
+	$args = array(
+	   'labels'      => array(
+		 'name'          => 'Full Courses',
+		 'singular_name' => 'Course',
+	   ),
+	   'public'      => true,
+	   'hierarchical' => true,
+	   'has_archive' => true,
+	   'rewrite'     => array( 'slug' => 'full-course' ),
+	   'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
+	   
+	 );
+	 register_post_type('fullcourses', $args );
+   }
+   add_action('init', 'fullCourses_post_type');
+   
+   //course taxonomies(full courses)
+   function fullCourse_taxonomy() {
+	 $labels = array(
+		 'name'              => 'Full Courses Category', 
+		 'singular_name'     => 'category',
+		 'search_items'      => __( 'Search courses' ),
+		 'all_items'         => __( 'All Courses' ),
+		 'parent_item'       => __( 'Parent course' ),
+		 'parent_item_colon' => __( 'Parent course:' ),
+		 'edit_item'         => __( 'Edit course' ),
+		 'update_item'       => __( 'Update course' ),
+		 'add_new_item'      => __( 'Add New course' ),
+		 'new_item_name'     => __( 'New course Name' ),
+		 'menu_name'         => __( 'Course' ),
+	 );
+	 $args   = array(
+		 'hierarchical'      => true, // make it hierarchical (like categories)
+		 'labels'            => $labels,
+		 'show_ui'           => true,
+		 'show_admin_column' => true,
+		 'query_var'         => true,
+		 'rewrite'           => [ 'slug' => 'full-course' ],
+	 );
+	 register_taxonomy( 'fullcourse', [ 'fullcourses' ], $args );
+   }
+   add_action( 'init', 'fullCourse_taxonomy' );
   
   
   //custom post (projects)
@@ -128,7 +174,7 @@ function my_sidebars() {
 		'public'      => true,
 		'hierarchical' => true,
 		'has_archive' => true,
-		'rewrite'     => array( 'slug' => 'projects' ),
+		'rewrite'     => array( 'slug' => 'project' ),
 		'supports' =>  array('title', 'editor', 'tag', 'thumbnail', 'custom-fields'),
 		
 	  );
@@ -189,7 +235,7 @@ function my_sidebars() {
 	   'public'      => true,
 	   'hierarchical' => true,
 	   'has_archive' => true,
-	   'rewrite'     => array( 'slug' => 'students' ),
+	   'rewrite'     => array( 'slug' => 'student' ),
 	   'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
 	   
 	 );
@@ -235,7 +281,7 @@ function my_sidebars() {
 	   'public'      => true,
 	   'hierarchical' => true,
 	   'has_archive' => true,
-	   'rewrite'     => array( 'slug' => 'books' ),
+	   'rewrite'     => array( 'slug' => 'book' ),
 	   'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
 	   
 	 );
@@ -275,12 +321,12 @@ function my_sidebars() {
 	$args = array(
 	   'labels'      => array(
 		 'name'          => 'Tools',
-		 'singular_name' => 'Book',
+		 'singular_name' => 'Tool',
 	   ),
 	   'public'      => true,
 	   'hierarchical' => true,
 	   'has_archive' => true,
-	   'rewrite'     => array( 'slug' => 'tools' ),
+	   'rewrite'     => array( 'slug' => 'tool' ),
 	   'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
 	   
 	 );
@@ -298,7 +344,7 @@ function my_sidebars() {
 	   'public'      => true,
 	   'hierarchical' => true,
 	   'has_archive' => true,
-	   'rewrite'     => array( 'slug' => 'instructors' ),
+	   'rewrite'     => array( 'slug' => 'instructor' ),
 	   'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
 	   
 	 );
