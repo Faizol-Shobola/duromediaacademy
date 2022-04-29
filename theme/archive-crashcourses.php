@@ -12,7 +12,7 @@ get_header();
 
     <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary">
         <div class="title text-center">
-            <h1 class="breadcrumb md:text-6xl">Courses</h1>
+            <h1 class="breadcrumb md:text-6xl capitalize">crash courses</h1>
         </div>
     </div>
 
