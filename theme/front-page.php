@@ -213,7 +213,7 @@ get_header();
        
 
     <!-- instructor section -->
- 	<?php get_template_part('includes/section','instructor');?>
+ 	<?php get_template_part('template-parts/content','instructor');?>
 
     <!-- graphics section -->
     <!-- <div class="graphics py-16">
@@ -445,7 +445,7 @@ get_header();
     </div>
 
     <!-- testimony section -->
- 	<?php get_template_part('includes/section','testimonial');?>
+ 	<?php get_template_part('template-parts/content','testimonial');?>
 	
 
     <!-- consultation section -->

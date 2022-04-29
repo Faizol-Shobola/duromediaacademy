@@ -62,13 +62,13 @@
 </footer> -->
 
 
-<footer class="bg-neutral">
+<footer class="bg-primary text-white">
   <div class="max-w-screen-xl px-4 py-16 mx-auto space-y-12 sm:px-6 lg:px-8">
     <div class="sm:items-center sm:justify-between sm:flex">
       <span class="block w-32 h-10 bg-gray-200 rounded-lg"></span>
 
       <div class="flex mt-8 space-x-6 text-gray-500 sm:mt-0">
-        <a class="hover:opacity-75" href="" target="_blank" rel="noreferrer">
+        <a class="hover:opacity-75 text-white" href="" target="_blank" rel="noreferrer">
           <span class="sr-only"> Facebook </span>
 
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -76,7 +76,7 @@
           </svg>
         </a>
 
-        <a class="hover:opacity-75" href="" target="_blank" rel="noreferrer">
+        <a class="hover:opacity-75 text-white" href="" target="_blank" rel="noreferrer">
           <span class="sr-only"> Instagram </span>
 
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -84,7 +84,7 @@
           </svg>
         </a>
 
-        <a class="hover:opacity-75" href="" target="_blank" rel="noreferrer">
+        <a class="hover:opacity-75 text-white" href="" target="_blank" rel="noreferrer">
           <span class="sr-only"> Twitter </span>
 
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -92,7 +92,7 @@
           </svg>
         </a>
 
-        <a class="hover:opacity-75" href="" target="_blank" rel="noreferrer">
+        <a class="hover:opacity-75 text-white" href="" target="_blank" rel="noreferrer">
           <span class="sr-only"> GitHub </span>
 
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -100,7 +100,7 @@
           </svg>
         </a>
 
-        <a class="hover:opacity-75" href="" target="_blank" rel="noreferrer">
+        <a class="hover:opacity-75 text-white" href="" target="_blank" rel="noreferrer">
           <span class="sr-only"> Dribbble </span>
 
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -116,7 +116,7 @@
           Company
         </p>
 
-        <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+        <nav class="flex flex-col mt-4 space-y-2 text-sm text-white">
           <a class="hover:opacity-75" href=""> About </a>
           <a class="hover:opacity-75" href=""> Meet the Team </a>
           <a class="hover:opacity-75" href=""> History </a>
@@ -129,7 +129,7 @@
           Services
         </p>
 
-        <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+        <nav class="flex flex-col mt-4 space-y-2 text-sm text-white">
           <a class="hover:opacity-75" href=""> 1on1 Coaching </a>
           <a class="hover:opacity-75" href=""> Company Review </a>
           <a class="hover:opacity-75" href=""> Accounts Review </a>
@@ -143,7 +143,7 @@
           Helpful Links
         </p>
 
-        <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+        <nav class="flex flex-col mt-4 space-y-2 text-sm text-white">
           <a class="hover:opacity-75" href=""> Contact </a>
           <a class="hover:opacity-75" href=""> FAQs </a>
           <a class="hover:opacity-75" href=""> Live Chat </a>
@@ -155,7 +155,7 @@
           Legal
         </p>
 
-        <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+        <nav class="flex flex-col mt-4 space-y-2 text-sm text-white">
           <a class="hover:opacity-75" href=""> Privacy Policy </a>
           <a class="hover:opacity-75" href=""> Terms & Conditions </a>
           <a class="hover:opacity-75" href=""> Returns Policy </a>
@@ -164,9 +164,19 @@
       </div>
     </div>
 
-    <p class="text-xs text-gray-500">
-      &copy; 2022 Company Name
-    </p>
+    <div class="pt-8 mt-12 border-t border-white">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+        <p class="text-xs text-center text-white lg:text-left">
+          Copyright &copy; 2022. Company Name. All rights reserved.
+        </p>
+
+        <nav class="flex justify-center space-x-4 text-xs text-white lg:justify-end">
+          <a href=""> Terms & Conditions </a>
+          <a href=""> Privacy Policy </a>
+          <a href=""> Cookies </a>
+        </nav>
+      </div>
+    </div>
   </div>
 </footer>
 
