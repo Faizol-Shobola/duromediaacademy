@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying Graphics design pages
+ * The template for displaying Graphics design page
  *
- * @link https://codex.wordpress.org/Creating_an_Error_404_Page
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package duromediaacademy
  */
