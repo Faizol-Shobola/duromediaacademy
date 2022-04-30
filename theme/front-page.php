@@ -477,9 +477,12 @@ get_header();
 
         </div>
     </div>
-
+    
     <!-- testimony section -->
- 	<?php get_template_part('template-parts/content','testimonial');?>
+    <div class="py-20">
+         <?php get_template_part('template-parts/content','testimonial');?>
+
+    </div>
 	
     <!-- CTA section -->
     <section class="bg-home-banner text-white">

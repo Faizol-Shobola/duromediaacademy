@@ -12,7 +12,7 @@ get_header();
 <section class="relative bg-black text-white">
     <?php if(has_post_thumbnail()):?>
   <img
-    class="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full  sm:opacity-75"
+    class="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-75"
     src="<?php the_post_thumbnail_url();?>"
     alt="<?php the_title();?>"
   />
@@ -39,13 +39,9 @@ get_header();
 </div>
 
 <div class="course">
-    <div class="cont py-28">
-        <div class="grid gap-y-10">
 
-            <?php get_template_part('template-parts/content','coursessingle');?>
-            
-        </div>
-    </div>
+    <?php get_template_part('template-parts/content','coursessingle');?>
+
 </div>
 
 	<!-- testimonial section-->
