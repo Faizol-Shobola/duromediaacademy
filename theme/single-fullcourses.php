@@ -12,7 +12,7 @@ get_header();
 <section class="relative bg-black text-white">
     <?php if(has_post_thumbnail()):?>
   <img
-    class="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-75"
+    class="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-50"
     src="<?php the_post_thumbnail_url();?>"
     alt="<?php the_title();?>"
   />

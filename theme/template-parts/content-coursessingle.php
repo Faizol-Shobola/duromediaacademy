@@ -97,7 +97,7 @@
 </div>
 
 <!-- testimonial section-->
-<div class="bg-neutral py-20">
+<div class="py-20">
     <div class="cont">
 
         <div class="flex items-center justify-center text-center pb-10">
