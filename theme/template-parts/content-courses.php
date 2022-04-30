@@ -38,7 +38,7 @@
         
         <div class="relative text-white">
             <h5 class="text-2xl font-bold"><?php the_title(); ?></h5>
-            <a href="<?php the_field('button_link'); ?>" class="capitalize inline-flex mt-8 px-6 py-2 font-medium rounded-sm bg-pink-400 text-purple-900">explore course</a>
+            <a href="<?php the_permalink(); ?>" class="capitalize inline-flex mt-8 px-6 py-2 font-medium rounded-sm bg-pink-400 text-purple-900">explore course</a>
         </div>
     </div>
 

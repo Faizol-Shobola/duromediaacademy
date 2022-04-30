@@ -69,7 +69,7 @@
       </div>
     </div>
   </div>
-  <div class="header animate__animated animate__slideInDown relative bg-white z-10">
+  <div class="header animate__animated animate__slideInDown relative bg-white z-20">
     <div class="cont mx-auto px-5 sm:px-6">
       <div class="md:py-5 md:flex md:items-center md:justify-between md:space-x-14 h-24 md:h-nav">
         <div class="flex justify-between items-center h-full">
