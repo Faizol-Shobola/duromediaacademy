@@ -30,7 +30,7 @@ get_header();
                 <!-- Name -->
                 <div class="title pb-5 text-white">
                     <h1 class="text-3xl font-medium py-2 uppercase font-head"><?php the_title(); ?></h1>
-                    <p class="text-2xl uppercase font-body">our best services for your kids</p>
+                    <p class="text-xl capitalize font-body w-full md:w-4/5"><?php the_field('project_description');?></p>
 
                     <!-- line -->
                     <div class="h-1.5 rounded-sm w-24 bg-white my-3"></div>
@@ -40,18 +40,22 @@ get_header();
         <!-- gallery -->
         <div class="cont py-12">
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- image 1 -->
-                <div class="col-span-1">
-                    <img src="https://kids.duromediaacademy.com.ng/wp-content/uploads/2021/04/Web-design.jpg" class="w-full h-auto" alt="">
-                </div>
-                <!-- image 2 -->
-                <div class="col-span-1">
-                    <img src="https://kids.duromediaacademy.com.ng/wp-content/uploads/2021/04/graphics-2.jpg" class="w-full h-auto" alt="">
-                </div>
-                <!-- image 3 -->
-                <div class="col-span-1">
-                    <img src="https://kids.duromediaacademy.com.ng/wp-content/uploads/2021/04/web-2.jpg" class="w-full h-auto" alt="">
-                </div>
+            <?php 
+                $images = get_field('project_images');
+                if( $images ): ?>
+                    <!-- image 1 -->
+                    <div class="col-span-1">
+                        <img src="<?php echo esc_url( $images['image1']['url'] ); ?>" class="w-full h-full object-cover" alt="<?php echo esc_attr( $hero['image1']['alt'] ); ?>">
+                    </div>
+                    <!-- image 2 -->
+                    <div class="col-span-1">
+                        <img src="<?php echo esc_url( $images['image2']['url'] ); ?>" class="w-full h-full object-cover" alt="<?php echo esc_attr( $hero['image2']['alt'] ); ?>">
+                    </div>
+                    <!-- image 3 -->
+                    <div class="col-span-1">
+                    <img src="<?php echo esc_url( $images['image3']['url'] ); ?>" class="w-full h-full object-cover" alt="<?php echo esc_attr( $hero['image3']['alt'] ); ?>">
+                    </div>
+                <?php endif; ?>
             </div>
         </div>
         <!-- project description -->
