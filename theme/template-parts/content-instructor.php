@@ -34,7 +34,7 @@
 
                 <a class="relative block bg-black group mx-1 md:mx-5" href="">
                     <?php if(has_post_thumbnail()):?>
-                        <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75  group-hover:opacity-50"/>
+                        <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="absolute object-top inset-0 object-cover w-full h-full transition-opacity  group-hover:opacity-50"/>
                     <?php endif;?> 
                     <div class="relative p-8">
                         <p class="text-sm font-medium tracking-widest text-secondary uppercase"><?php the_field('subject'); ?></p>

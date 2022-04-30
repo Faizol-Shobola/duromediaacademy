@@ -64,7 +64,7 @@
 
 <footer class="footer bg-primary text-white">
   <div class="max-w-screen-xl px-4 py-10 mx-auto space-y-5 sm:px-6 lg:px-8">
-    <div class="sm:items-center sm:justify-between sm:flex">
+    <div class="sm:items-center sm:justify-between sm:flex gap-y-5">
       <div class="flex gap-4 list-type-none">
         <?php if(is_active_sidebar('footer-1')):?>
           <?php dynamic_sidebar('footer-1');?>
@@ -72,33 +72,27 @@
       </div>
       
 
-      <div class="flex mt-8 space-x-6 text-gray-500 sm:mt-0">
+      <div class="flex mt-8 space-x-6">
         <?php if(is_active_sidebar('footer-2')):?>
           <?php dynamic_sidebar('footer-2');?>
         <?php endif;?>
       </div>
     </div>
 
-    <div class="grid grid-cols-1 gap-8 pt-12 border-t border-gray-100 sm:grid-cols-2 lg:grid-cols-4">
-      <div class="col-span-2 px-3">
+    <div class="grid gap-8 pt-12 border-t border-gray-100 sm:grid-cols-2 md:grid-cols-4">
+      <div class="newsletter formsm:col-span-2 md:col-span-2 px-3">
         <?php if(is_active_sidebar('footer-3')):?>
           <?php dynamic_sidebar('footer-3');?>
         <?php endif;?>
       </div>
 
-      <div>
-        <p class="font-medium">
-          Helpful Links
-        </p>
-
-        <nav class="flex flex-col mt-4 space-y-2 text-sm text-white">
-          <a class="hover:opacity-75" href=""> Contact </a>
-          <a class="hover:opacity-75" href=""> FAQs </a>
-          <a class="hover:opacity-75" href=""> Live Chat </a>
-        </nav>
+      <div class="col-span-1">
+        <?php if(is_active_sidebar('footer-4')):?>
+          <?php dynamic_sidebar('footer-4');?>
+        <?php endif;?>
       </div>
 
-      <div>
+      <div class="col-span-1">
         <?php if(is_active_sidebar('footer-5')):?>
           <?php dynamic_sidebar('footer-5');?>
         <?php endif;?>
@@ -106,16 +100,10 @@
     </div>
 
     <div class="pt-8 mt-12 border-t border-white">
-      <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
-        <p class="text-xs text-center text-white lg:text-left">
-          Copyright &copy; 2022. Company Name. All rights reserved.
-        </p>
-
-        <nav class="flex justify-center space-x-4 text-xs text-white lg:justify-end">
-          <a href=""> Terms & Conditions </a>
-          <a href=""> Privacy Policy </a>
-          <a href=""> Cookies </a>
-        </nav>
+      <div class="text-xs text-center text-white">
+        <?php if(is_active_sidebar('footer-6')):?>
+          <?php dynamic_sidebar('footer-6');?>
+        <?php endif;?>
       </div>
     </div>
   </div>

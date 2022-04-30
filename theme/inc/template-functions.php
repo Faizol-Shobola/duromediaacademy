@@ -65,10 +65,24 @@ function my_sidebars() {
 		)
 	);
 
+	register_sidebar(
+		array(
+		  'name' => 'Footer 4',
+		  'id' => 'footer-4',
+		)
+	);
+
 	  register_sidebar(
 		array(
 		  'name' => 'Footer 5',
 		  'id' => 'footer-5',
+		)
+	);
+
+	register_sidebar(
+		array(
+		  'name' => 'Footer 6',
+		  'id' => 'footer-6',
 		)
 	);
   

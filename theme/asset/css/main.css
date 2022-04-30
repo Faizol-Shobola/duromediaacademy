@@ -146,6 +146,9 @@ text-transform: capitalize;
     margin-bottom: 4px;
     font-size: 14px;
 }
+.footer ul.menu li:hover {
+    opacity: 0.75;
+}
 
 
 /* blog search form */
@@ -193,7 +196,7 @@ form#searchform.searchform div label{
     box-sizing: border-box;
 }
 /* newsletter form */
-div.news-form {
+/* div.news-form {
     width: 80%;
     margin: 0px auto;
     padding: 5px 15px;
@@ -223,7 +226,9 @@ div.news-form input[type="submit"] {
 div.news-form input:hover,
 div.news-form input:focus {
     outline: none;
-}
+} */
+
+
 
 /* contact form */
 .contactform li {
@@ -271,6 +276,41 @@ div.news-form input[type="submit"]:hover,
 	border: 2px solid #E37335;
 	color: #E37335;
 }
+
+/* Footer Newsletter Form */
+.footer .wpcf7-form input[type="email"] {
+	color:#fff;
+    border: 0px;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	font-family:Raleway; 
+	width:100%;
+	padding: 10px;
+	margin: 5px 0px;
+	letter-spacing: 1px;
+}
+
+.footer .wpcf7-form input[type="submit"] { 
+	background-color: #E37335;
+	color: #FFF;
+	letter-spacing: 1.2px;
+	width:100%;
+	cursor: pointer;
+    font-size: 18px;
+	font-weight: bold;
+	text-align:center;
+	padding: 15px 10px;
+	border: 2px solid #E37335;
+    border-radius: 35px;
+	margin: 5px 0px;
+}
+
+.footer .wpcf7-form input[type="submit"]:hover {
+	background-color: transparent;
+	border: 2px solid #E37335;
+	color: #E37335;
+}
+/* Footer Newsletter Form */
 
 @media screen and (min-width: 767px) {
     .course-card  {
