@@ -454,22 +454,22 @@ get_header();
             <div class="flex flex-col sm:items-center sm:justify-center gap-y-3">
                 <div class="md:border-b border-slate-300 md:py-4 grid sm:grid-cols-2 gap-x-8 gap-y-3 sm:gap-y-0">
                     <div class="flex items-center gap-4 border-2 border-black p-4 md:p-0 md:border-0">
-                        <img loading="lazy"  src="https://alx-t.com/wp-content/uploads/2022/03/icon-sa-4.png" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
+                        <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/certify.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
                         <h4 class="font-semibold text-lg lg:text-xl">Certified Certificate</h4>
                     </div>
                     <div class="flex items-center gap-4 border-2 border-black p-4 md:p-0 md:border-0">
-                        <img loading="lazy"  src="https://alx-t.com/wp-content/uploads/2022/03/icon-sa-4.png" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
-                        <h4 class="font-semibold text-lg lg:text-xl">Certified Certificate</h4>
+                        <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/growth.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
+                        <h4 class="font-semibold text-lg lg:text-xl">Career Growth</h4>
                     </div>
                 </div>
                 <div class="md:border-b border-slate-300 md:py-4 grid sm:grid-cols-2 gap-x-8 gap-y-3 sm:gap-y-0">
                     <div class="flex items-center gap-4 border-2 border-black p-4 md:p-0 md:border-0">
-                        <img loading="lazy"  src="https://alx-t.com/wp-content/uploads/2022/03/icon-sa-4.png" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
-                        <h4 class="font-semibold text-lg lg:text-xl">Certified Certificate</h4>
+                        <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/project.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
+                        <h4 class="font-semibold text-lg lg:text-xl">Real-world Projects</h4>
                     </div>
                     <div class="flex items-center gap-4 border-2 border-black p-4 md:p-0 md:border-0">
-                        <img loading="lazy"  src="https://alx-t.com/wp-content/uploads/2022/03/icon-sa-4.png" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
-                        <h4 class="font-semibold text-lg lg:text-xl">Certified Certificate</h4>
+                        <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/mentor.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
+                        <h4 class="font-semibold text-lg lg:text-xl">Mentors & Trainers</h4>
                     </div>
                 </div>
 

@@ -1,35 +1,20 @@
 <div class="grid gap-y-10 py-20">
 
     <div class="cont grid sm:grid-cols-2 md:grid-cols-3 gap-10 sm:h-72">
-        <div class="bg-neutral h-full p-10 text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />   
-            </svg>
-
+        <div class="bg-neutral h-full p-10 flex flex-col items-center text-center">
+            <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/enroll.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
             <h3 class="mt-3 text-2xl font-bold ">Enrollment Deadline:</h3>
 
             <p class="mt-3 font-medium text-lg"> <?php the_field('deadline'); ?> </p>
         </div>
-        <div class="bg-neutral h-full p-10 text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />   
-            </svg>
-
+        <div class="bg-neutral h-full p-10 flex flex-col items-center text-center">
+            <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/time.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
             <h3 class="mt-3 text-2xl font-bold ">Estimated Duration:</h3>
 
             <p class="mt-3 font-medium text-lg"> <?php the_field('duration'); ?>  </p>
         </div>
-        <div class="bg-neutral h-full p-10 text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />   
-            </svg>
-
+        <div class="bg-neutral h-full p-10 flex flex-col items-center text-center">
+            <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/price.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
             <h3 class="mt-3 text-2xl font-bold ">Price:</h3>
 
             <p class="mt-3 font-medium text-lg"><?php the_field('price'); ?></p>
@@ -37,13 +22,8 @@
         
     </div>
     <div class="cont grid sm:grid-cols-2 gap-10 course-card w-full">
-        <div class="bg-neutral h-full p-10">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />   
-            </svg>
-
+        <div class="bg-neutral h-full p-10 md:p-x-16 flex flex-col items-center">
+            <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/qualify.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
             <h3 class="mt-3 text-2xl font-bold text-center">Qualifying for:</h3>
 
             <!-- <p class="mt-3 font-medium text-lg"> </p> -->
@@ -52,13 +32,8 @@
                 <?php the_field('qualify'); ?>
             </ul>
         </div>
-        <div class="bg-neutral h-full p-10">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />   
-            </svg>
-
+        <div class="bg-neutral h-full p-10 md:p-x-16 flex flex-col items-center">
+            <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/prerequisites.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
             <h3 class="mt-3 text-2xl font-bold text-center">Prerequisites:</h3>
 
             <!-- <p class="mt-3 font-medium text-lg">  </p> -->
@@ -119,22 +94,22 @@
         <div class="flex flex-col sm:items-center sm:justify-center gap-y-3">
             <div class="md:border-b border-slate-300 md:py-4 grid sm:grid-cols-2 gap-x-8 gap-y-3 sm:gap-y-0">
                 <div class="flex items-center gap-4 border-2 border-black p-4 md:p-0 md:border-0">
-                    <img loading="lazy"  src="https://alx-t.com/wp-content/uploads/2022/03/icon-sa-4.png" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
+                    <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/certify.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
                     <h4 class="font-semibold text-lg lg:text-xl">Certified Certificate</h4>
                 </div>
                 <div class="flex items-center gap-4 border-2 border-black p-4 md:p-0 md:border-0">
-                    <img loading="lazy"  src="https://alx-t.com/wp-content/uploads/2022/03/icon-sa-4.png" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
-                    <h4 class="font-semibold text-lg lg:text-xl">Certified Certificate</h4>
+                    <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/growth.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
+                    <h4 class="font-semibold text-lg lg:text-xl">Career Growth</h4>
                 </div>
             </div>
             <div class="md:border-b border-slate-300 md:py-4 grid sm:grid-cols-2 gap-x-8 gap-y-3 sm:gap-y-0">
                 <div class="flex items-center gap-4 border-2 border-black p-4 md:p-0 md:border-0">
-                    <img loading="lazy"  src="https://alx-t.com/wp-content/uploads/2022/03/icon-sa-4.png" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
-                    <h4 class="font-semibold text-lg lg:text-xl">Certified Certificate</h4>
+                    <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/project.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
+                    <h4 class="font-semibold text-lg lg:text-xl">Real-world Projects</h4>
                 </div>
                 <div class="flex items-center gap-4 border-2 border-black p-4 md:p-0 md:border-0">
-                    <img loading="lazy"  src="https://alx-t.com/wp-content/uploads/2022/03/icon-sa-4.png" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
-                    <h4 class="font-semibold text-lg lg:text-xl">Certified Certificate</h4>
+                    <img loading="lazy"  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/mentor.png';?>" alt="" class="object-scale-down w-12 h-12 lg:w-16 lg:h-16">
+                    <h4 class="font-semibold text-lg lg:text-xl">Mentors & Trainers</h4>
                 </div>
             </div>
 
