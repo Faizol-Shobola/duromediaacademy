@@ -89,7 +89,7 @@
         <div class="w-full lg:w-4/5">
             <span class="font- text-base">Why should you study with Duromedia Academy?</span>
             <h3 class="text-3xl font-bold py-4 md:py-5">Job-ready talent Superior outcomes</h3>
-            <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/duromediaacademycertificate.png';?>" alt="" class="object-cover object-top w-full h-60">
+            <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/duromediaacademycertificate.png';?>" alt="" class="object-cover p-4 border border-black object-top w-full h-60">
         </div>
         <div class="flex flex-col sm:items-center sm:justify-center gap-y-3">
             <div class="md:border-b border-slate-300 md:py-4 grid sm:grid-cols-2 gap-x-8 gap-y-3 sm:gap-y-0">
