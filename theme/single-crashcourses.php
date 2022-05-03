@@ -25,16 +25,14 @@ get_header();
     </div>
   </div>
 </section>
-<div class="sticky top-24 px-4 py-4  bg-neutral sm:justify-center sm:gap-12 sm:items-center sm:flex sm:px-6 lg:px-8">
+<div class="sticky top-20 z-40 px-4 py-4  bg-neutral sm:justify-center sm:gap-12 sm:items-center sm:flex sm:px-6 lg:px-8">
   <p class="font-bold text-center sm:text-left text-lg">
-    Love Alpine JS?
-    <br class="sm:hidden" />
-    Check out this new deep dive course!
+  Take a step forward
   </p>
 
   <a
-    class="block px-6 py-3 mt-4 text-base font-semibold text-center text-white transition bg-primary rounded-md sm:mt-0 hover:bg-primary active:text-white/90 focus:outline-none focus:ring"
-    href="/alpinejs">Learn More
+    class="block px-6 py-3 mt-4 text-base font-semibold text-center text-white transition bg-primary rounded-md sm:mt-0 hover:bg-primary active:text-white/90 focus:outline-none focus:ring capitalize"
+    href="/alpinejs">enroll now
   </a>
 </div>
 
