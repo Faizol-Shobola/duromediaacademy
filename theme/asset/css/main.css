@@ -314,7 +314,7 @@ div.news-form input[type="submit"]:hover,
 
 @media screen and (min-width: 767px) {
     .course-card  {
-        height: 550px;
+        height: 420px;
     }
 }
 
@@ -390,12 +390,6 @@ div.news-form input[type="submit"]:hover,
     }
 
    
-}
-
-@media screen and (min-width: 767px) {
-    .course-card  {
-        height: 550px;
-    }
 }
 
 /* animation amd key frames */

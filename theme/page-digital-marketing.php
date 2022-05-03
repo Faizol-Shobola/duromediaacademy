@@ -33,7 +33,7 @@ get_header();
                 <div class="sub-title">
                     <p class="text-lg">
                    If you're new to digital marketing, it may feel overwhelming to think about mastering all the online marketing tactics used in digital marketing.
-But they all work together to create a foundation for all businesses: attracting prospects, nurturing relationships, and making offers to audiences that they will appreciate and respond to.
+                    But they all work together to create a foundation for all businesses: attracting prospects, nurturing relationships, and making offers to audiences that they will appreciate and respond to.
 					<span class="block py-2 text-secondary">Let's take a closer look at how that happens.</span>Google and Facebook generate more revenue than any traditional media company because they control more eyeballs. That’s why digital marketing matters, it is where the attention is
                     </p>
                 </div>

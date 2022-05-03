@@ -7,7 +7,7 @@
 
     $query = new WP_Query( $query_args ); ?>
 
-<div class="max-w-5xl px-4 py-20 mx-auto owl-carousel owl-theme testimonial-slide">
+<div class="max-w-5xl px-4 mx-auto owl-carousel owl-theme testimonial-slide">
 	<?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 		<section class="p-8 bg-neutral rounded-lg mx-1">
 			<div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
