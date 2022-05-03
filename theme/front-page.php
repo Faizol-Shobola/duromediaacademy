@@ -94,13 +94,13 @@ get_header();
 						<p class="text-xl pt-3 text-white">  Learn the latest skills to reach your professional goals from DuroMedia Academy, authorities on the Digtal skill training, Lagos Nigeria.
 						</p>
 					</div>
-					<div class="button pt-5 wow fadeInRight" data-wow-delay=".5s">
-						<a href=" <?php get_site_url() ?>/masterclass"  class=" btn-secondary hover:bg-secondary md:text-2xl">get started.</a>
+					<div class="button pt-5">
+                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-base text-white bg-secondary border border-secondary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
 					</div>
 				</div>
 				<div class="w-full flex justify-center items-center md:py-0">
 					<div class="overflow-hidden w-full h-full ">
-						<img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04';?>/hero.jpg" alt=""  class="wow bounceInDown md:w-full h-auto">
+						<img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04';?>/hero.jpg" alt=""  class="md:w-full h-auto">
 					</div>
 				</div>
 			</div>
@@ -291,11 +291,11 @@ get_header();
             </div> -->
 
 
-            <div class="relative block bg-black group" href="">
+            <div class="relative block bg-black group " href="">
                 <img  src="https://www.hyperui.dev/photos/man-6.jpeg" alt="" 
                     class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75 opacity-50"
                 />
-                <div class="relative p-8">
+                <div class="relative p-12">
                     <div class="mt-72">
                     <div class="">
                         <p class="text-2xl font-bold text-secondary capitalize">Crash course</p>
@@ -304,7 +304,7 @@ get_header();
                             perferendis hic asperiores quibusdam quidem voluptates doloremque
                             reiciendis nostrum harum. Repudian72e?
                         </p>
-                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-sm text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
+                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-base text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
                     </div>
                     </div>
                 </div>
@@ -313,7 +313,7 @@ get_header();
                 <img  src="https://www.hyperui.dev/photos/man-6.jpeg" alt="" 
                     class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75 opacity-50"
                 />
-                <div class="relative p-8">
+                <div class="relative p-12">
                     <div class="mt-72">
                     <div class="">
                         <p class="text-2xl font-bold text-secondary capitalize">Complete bootcamp</p>
@@ -322,7 +322,7 @@ get_header();
                             perferendis hic asperiores quibusdam quidem voluptates doloremque
                             reiciendis nostrum harum. Repudian72e?
                         </p>
-                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-sm text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
+                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-base text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
                     </div>
                     </div>
                 </div>
@@ -495,7 +495,7 @@ get_header();
             </p>
 
             <div class="flex flex-wrap justify-center gap-4 mt-8">
-                <a class="block w-full px-12 py-3 text-sm font-medium text-white bg-primary border border-primary rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring" href="/get-started">
+                <a class="block w-full px-12 py-3 text-base font-medium text-white bg-primary border border-primary rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring" href="/get-started">
                 Get Started
                 </a>
             </div>

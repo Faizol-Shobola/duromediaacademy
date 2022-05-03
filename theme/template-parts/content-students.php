@@ -14,7 +14,7 @@
                     <?php the_title(); ?>
                 </h3>
                 <div class="my-5 text-center">
-                    <a href="<?php the_permalink(); ?>" class="btn-primary capitalize">connect</a>
+                    <a href="<?php the_permalink(); ?>" class="btn-primary capitalize">view profile</a>
                 </div>
             </figcaption>
         </div>
