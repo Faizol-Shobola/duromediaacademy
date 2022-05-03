@@ -11,67 +11,115 @@ get_header();
 ?>
      
 <?php if( have_posts() ): while( have_posts() ): the_post();?>
-        <div class="sticky top-20 bg-white p-6 md:p-8 space-y-3 mdspace-y-4 wow bounceInDown">
-                <div class="flex flex-wrap md:justify-between gap-3">
-                    <h2 class="text-4xl md:text-5xl font-semibold text-primary capitalize"><?php the_title(); ?></h2>
-                    <p class="">
-                        <a href="<?php the_field('project_link');?>" class="flex project-link items-center px-3 bg-primary text-white py-1 projectlink text-center hover:pointer hover:text-primary active:text-primary hover:bg-white rounded-2xl hover:border-primary border-2 ">
-                            <i class="fas fa-globe text-2xl"></i>
-                            <span class="pl-2 capitalize">view project</span>
-                        </a>
-                    </p>
-                </div>
-                <div class="flex flex-wrap md:justify-between gap-3">
-                    <div class="text-gray-500 text-lg">
-                        <p class="capitalize leading-loose">
-                            <span class="mr-2 text-secondary">contributors</span>
-                            <?php
-                                $args = [
 
-                                    'post_type' => 'students',
-                                    'meta_query' => [
-                                        [
-                                            'key' => 'projects',
-                                            'value' => '"' . get_the_ID() . '"',
-                                            'compare' => 'LIKE',
-                                        ]
-                                    ]
-                                ];
-                                $students = get_posts($args);
-                            ?>
-                            <?php if($students):?>
-                                <?php foreach($students as $post):?>
-                                    <?php setup_postdata($post);?>
-                                    <a href="<?php echo the_permalink();?>" class="rounded-2xl hover:text-white hover:border-secondary hover:bg-secondary px-2 py-1 border-2 "><?php echo the_title();?></a>
-                                <?php wp_reset_postdata(); endforeach;?>
-                            <?php endif;?>
-                        </p>
+    <div class="wrapper">
+        <a id="button" class="z-10 text-center fixed bg-white rounded-sm py-0.5 px-2 hidden cursor-pointer font-body">
+            <i class="fas fa-chevron-up text-2xl text-secondary "></i>
+        </a>
+
+
+        <!-- hero banner -->
+        <div class="bg-primary relative">
+            <!-- image -->
+            <div class="col-span-1 h-60 md:h-72 lg:h-96 bg-black">
+                <?php if(has_post_thumbnail()):?>
+                    <img class="w-full h-full object-cover opacity-75" src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>">
+                <?php endif;?>
+            </div>
+            <div class=" absolute top-1/3 md:top-1/2 md:left-1/2 left-5">
+                <!-- Name -->
+                <div class="title pb-5 text-white">
+                    <h1 class="text-3xl font-medium py-2 uppercase font-head"><?php the_title(); ?></h1>
+                    <p class="text-xl capitalize font-body w-full md:w-4/5"><?php the_field('project_description');?></p>
+
+                    <!-- line -->
+                    <div class="h-1.5 rounded-sm w-24 bg-white my-3"></div>
+                </div>
+            </div>
+        </div>
+        <!-- gallery -->
+        <div class="cont py-12">
+            <div class="grid md:grid-cols-3 gap-8">
+            <?php 
+                $images = get_field('project_images');
+                if( $images ): ?>
+                    <!-- image 1 -->
+                    <div class="col-span-1">
+                        <img src="<?php echo esc_url( $images['image1']['url'] ); ?>" class="w-full h-full object-cover" alt="<?php echo esc_attr( $hero['image1']['alt'] ); ?>">
                     </div>
-                    <div class="">
+                    <!-- image 2 -->
+                    <div class="col-span-1">
+                        <img src="<?php echo esc_url( $images['image2']['url'] ); ?>" class="w-full h-full object-cover" alt="<?php echo esc_attr( $hero['image2']['alt'] ); ?>">
+                    </div>
+                    <!-- image 3 -->
+                    <div class="col-span-1">
+                    <img src="<?php echo esc_url( $images['image3']['url'] ); ?>" class="w-full h-full object-cover" alt="<?php echo esc_attr( $hero['image3']['alt'] ); ?>">
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+        <!-- project description -->
+        <div class="cont grid md:grid-cols-9 pb-10 gap-5">
+            <div class="md:col-span-3 ">
+                <div class="border-2 border-gray-100 px-3 py-8 rounded-md">
+                    <!-- project type -->
+                    <article class=" shadow-md p-3">
                         <?php
                             $projecttype = get_field('project_type');
                             if( $projecttype ): ?>
-                                <p class="capitalize font-semibold"> project type:
-                                <?php foreach( $projecttype as $type ): ?>
-                                    <span class="px-1 font-medium"><?php echo $type; ?></span>
-                                <?php endforeach; ?>
-                            </p>
+                            <span class="text-secondary text-base uppercase font-semibold">type</span>
+                            <?php foreach( $projecttype as $type ): ?>
+                                <span class="text-gray-500 pl-2 text-lg uppercase"><?php echo $type; ?></span>
+                            <?php endforeach; ?>
                         <?php endif; ?>
-                    </div>
+                    </article>
+                    <!-- project link -->
+                    <article class=" shadow-md p-3">
+                        <span class="text-secondary ext-base uppercase font-semibold">link</span>
+                        <a href="<?php the_field('project_link');?>" class="text-primary underline pl-2 text-lg lowercase font-body">View Project</a>
+                    </article>
+                    <!-- project author -->
+                    <?php
+                        $args = [
+
+                            'post_type' => 'students',
+                            'meta_query' => [
+                                [
+                                    'key' => 'projects',
+                                    'value' => '"' . get_the_ID() . '"',
+                                    'compare' => 'LIKE',
+                                ]
+                            ]
+                        ];
+                        $students = get_posts($args);
+                    ?>
+                    <article class=" shadow-md p-3">
+                        <span class="text-secondary text-base uppercase font-semibold">author</span>
+                        <?php if($students):?>
+                            <?php foreach($students as $post):?>
+                                <?php setup_postdata($post);?>
+                                <a href="<?php echo the_permalink();?>" class="underline text-gray-500 pl-2 text-lg uppercase font-body"><?php echo the_title();?></a>
+                            <?php wp_reset_postdata(); endforeach;?>
+                        <?php endif;?>
+                    </article>
                 </div>
-        </div>
-    <section class="cont py-5 ">
-        
-        <main class="px-5 pb-5">
-            <?php if(has_post_thumbnail()):?>
-                <img class="wow slideInLeft flex justify-center object-cover w-96 h-96 py-5" data-wow-delay=".2s" src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" width="1024" height="1000">
-            <?php endif;?>
-            <div class="projectcontent">
-                <p class=""><?php the_content();?></p>
             </div>
-        </main>
-            
-    </section>
+            <!-- description -->
+            <div class="md:col-span-6">
+                <!-- title -->
+                <div class="title pb-5">
+                <h1 class="text-2xl font-medium py-2 uppercase text-gray-600 font-head">description</h1>    
+                <!-- line -->
+                <div class="h-0.5 rounded-sm w-12 bg-secondary my-3"></div>
+            </div>
+            <div class="text-gray-500">
+                <p class="font-body"><?php the_content();?></p>
+            </div>
+        </div>
+    </div>
+
+
 <?php endwhile; else: endif; ?>
+
 
 <?php get_footer();?>

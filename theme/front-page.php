@@ -126,7 +126,7 @@ get_header();
     </div> -->
 
     <!-- Specialization -->
-    <div class="specialization pt-10">
+    <div class="specialization py-10">
         <div class="cont grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 lg:gap-6 py-14">
             <!--  -->
             <div class="relative block p-8 border border-black">
@@ -261,11 +261,11 @@ get_header();
         </div>
     </div> -->
     <!--  -->
-    <div class="py-16 md:py-28">
+    <div class="py-16 md:py-28 bg-neutral">
         <div class="flex items-center justify-center text-center pb-12">
             <h2 class="capitalize text-3xl font-bold">programmes</h2>
         </div>
-        <div class="cont grid sm:grid-cols-2 gap-12 sm:px-6 ">
+        <div class="cont grid md:grid-cols-2 gap-12 sm:px-6 ">
             <!-- <div class="w-full flex justify-center items-center py-6 md:py-0">
                 <div class=" overflow-hidden w-11/12 h-auto rounded-xl">
                     <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04';?>/D-market.jpg" alt="" class="wow slideInLeft md:w-full h-auto">
@@ -304,7 +304,7 @@ get_header();
                             perferendis hic asperiores quibusdam quidem voluptates doloremque
                             reiciendis nostrum harum. Repudian72e?
                         </p>
-                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
+                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-sm text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
                     </div>
                     </div>
                 </div>
@@ -322,7 +322,7 @@ get_header();
                             perferendis hic asperiores quibusdam quidem voluptates doloremque
                             reiciendis nostrum harum. Repudian72e?
                         </p>
-                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
+                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-sm text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
                     </div>
                     </div>
                 </div>
@@ -443,8 +443,8 @@ get_header();
     </div> -->
 
     <!-- why choose us -->
-    <div class="py-20 bg-slate-100">
-        <div class="cont grid md:grid-cols-2 gap-12 sm:px-6">
+    <div class="pt-10">
+        <div class="cont grid md:grid-cols-2 py-20 gap-12 sm:px-6">
            
             <div class="w-full lg:w-4/5">
                 <span class="font- text-base">Why should you study with Duromedia Academy?</span>
