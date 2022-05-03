@@ -35,7 +35,7 @@ module.exports = {
 			},
 			backgroundImage: {
 				'hero-pattern': "url('../theme/asset/image/instructor-backgroung.jpg')",
-				'home-banner': "url('../theme/asset/image/home-hero-bg.jpg')"
+				'home-banner': "url('../theme/asset/image/background-g066edd5f8_1280.png')"
 			},
 		},
 	},

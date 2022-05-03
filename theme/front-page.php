@@ -76,11 +76,11 @@ get_header();
 
 <!-- Hero section -->
 <div class="bg-home-banner bg-left bg-cover hero py-8 lg:py-10">
-        <div class="cont ">
-            <div class="lg:grid grid-cols-2 flex flex-col-reverse gap-x-10 sm:px-6 ">
+        <div class="cont">
+            <div class="lg:grid grid-cols-2 flex flex-col-reverse gap-x-10 sm:px-6 py-8">
 				
 
-				 <div class="pt-5">
+				 <div class="">
 					<div class="title p-2">
 						<h1 class="keyword text-sm">best graphics, web design and digital marketing training in lagos nigeria. </h1>
 						<h2 class="text-4xl md:text-5xl text-white lg:text-6xl font-bold">Acquire a life-changing career</h2>
@@ -95,12 +95,12 @@ get_header();
 						</p>
 					</div>
 					<div class="button pt-5">
-                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-base text-white bg-secondary border border-secondary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
+                        <a href="<?php get_site_url() ?>/all-programmes" class="capitalize px-10 py-3 font-medium text-base text-white bg-secondary border border-secondary outline-none rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
 					</div>
 				</div>
 				<div class="w-full flex justify-center items-center md:py-0">
-					<div class="overflow-hidden w-full h-full ">
-						<img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04';?>/hero.jpg" alt=""  class="md:w-full h-auto">
+					<div class="overflow-hidden w-96 h-96 ">
+						<img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04';?>/duromediaacademy.png" alt=""  class="md:w-full h-auto">
 					</div>
 				</div>
 			</div>
@@ -291,42 +291,8 @@ get_header();
             </div> -->
 
 
-            <div class="relative block bg-black group " href="">
-                <img  src="https://www.hyperui.dev/photos/man-6.jpeg" alt="" 
-                    class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75 opacity-50"
-                />
-                <div class="relative p-12">
-                    <div class="mt-72">
-                    <div class="">
-                        <p class="text-2xl font-bold text-secondary capitalize">Crash course</p>
-                        <p class="text-lg font-medium text-white py-6">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                            perferendis hic asperiores quibusdam quidem voluptates doloremque
-                            reiciendis nostrum harum. Repudian72e?
-                        </p>
-                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-base text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="relative block bg-black group" href="">
-                <img  src="https://www.hyperui.dev/photos/man-6.jpeg" alt="" 
-                    class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75 opacity-50"
-                />
-                <div class="relative p-12">
-                    <div class="mt-72">
-                    <div class="">
-                        <p class="text-2xl font-bold text-secondary capitalize">Complete bootcamp</p>
-                        <p class="text-lg font-medium text-white py-6">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                            perferendis hic asperiores quibusdam quidem voluptates doloremque
-                            reiciendis nostrum harum. Repudian72e?
-                        </p>
-                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-base text-white bg-primary border border-primary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
-                    </div>
-                    </div>
-                </div>
-            </div>
+            <?php get_template_part('template-parts/content','coursecard');?>
+
 
         </div>
     </div>
@@ -495,7 +461,7 @@ get_header();
             </p>
 
             <div class="flex flex-wrap justify-center gap-4 mt-8">
-                <a class="block w-full px-12 py-3 text-base font-medium text-white bg-primary border border-primary rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring" href="/get-started">
+                <a href="<?php get_site_url() ?>/all-programmes" class="block w-full px-12 py-3 text-base font-medium text-white bg-primary border border-primary rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">
                 Get Started
                 </a>
             </div>
