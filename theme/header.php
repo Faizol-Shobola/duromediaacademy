@@ -29,7 +29,7 @@
 <div class="flex flex-col  min-h-screen">
 <!-- This example requires Tailwind CSS v2.0+ -->
 <header>
-  <div class="topbarpx-2 md:px-8 h-10 bg-primary">
+  <div class="topbar px-2 md:px-8 h-10 bg-primary">
     <div class=" grid grid-cols-2 cont">
       <div class="flex justify-start items-center text-white">
         <div class="icon-instagram mx-2">
@@ -126,10 +126,6 @@
       To: "opacity-0 scale-95"
   -->
 
-  
-
-
-
 
 
 		<div class="sticky top-0 bottom-0 z-20 overflow-y-auto h-auto mobile-menu hidden inset-x-0 transition transform origin-top-right md:hidden">
@@ -155,7 +151,7 @@
 	</div>
 </header>
 <div class="wrapper">
-  <a id="button" class="bg-secondary z-10 text-center fixed rounded-full hidden h-12 w-12 hover:pointer hover:bg-primary active:bg-primary">
+  <a id="button" class="open_link-toggle bg-secondary z-10 text-center fixed rounded-full hidden h-12 w-12 hover:pointer hover:bg-primary active:bg-primary">
     <i class="fas fa-arrow-up my-2.5 text-xl text-white"></i>
   </a>
 

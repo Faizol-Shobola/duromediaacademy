@@ -89,7 +89,7 @@ get_header();
 						<div class="text-3xl italic">(Oh hey there, I’m Tyson.) </div>
 					</div> -->
 					<div class="sub-title py-3">
-						<p class="text-xl text-white">Bureau of Labor Statistics estimates the 2017 median pay of a web designer to be $48,700 per year, equating to approximately $23.41 per hour.
+						<p class="text-xl text-white">
 							<span class="font-medium">We train our students based on <span class="text-secondary">“20%theory”</span> and <span class="text-secondary">“80% practical”</span>we also give professional experience advice based on the job.</span>  </p>
 						<p class="text-xl pt-3 text-white">  Learn the latest skills to reach your professional goals from DuroMedia Academy, authorities on the Digtal skill training, Lagos Nigeria.
 						</p>
