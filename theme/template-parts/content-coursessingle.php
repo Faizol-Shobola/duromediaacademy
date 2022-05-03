@@ -76,7 +76,7 @@
     <div class="cont">
 
         <div class="flex items-center justify-center text-center pb-10">
-            <h2 class="capitalize text-3xl font-bold">Hear from Udacity Students</h2>
+            <h2 class="capitalize text-3xl font-bold">hear from our students</h2>
         </div>
         <?php  get_template_part('template-parts/content','testimonial');?> 
     </div>
@@ -89,7 +89,7 @@
         <div class="w-full lg:w-4/5">
             <span class="font- text-base">Why should you study with Duromedia Academy?</span>
             <h3 class="text-3xl font-bold py-4 md:py-5">Job-ready talent Superior outcomes</h3>
-            <img src="https://images.unsplash.com/photo-1599481238505-b8b0537a3f77?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80" alt="" class="object-cover object-top w-full h-60">
+            <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04/duromediaacademycertificate.png';?>" alt="" class="object-cover p-4 border border-black object-top w-full h-60">
         </div>
         <div class="flex flex-col sm:items-center sm:justify-center gap-y-3">
             <div class="md:border-b border-slate-300 md:py-4 grid sm:grid-cols-2 gap-x-8 gap-y-3 sm:gap-y-0">

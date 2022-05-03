@@ -29,15 +29,27 @@
 <div class="flex flex-col  min-h-screen">
 <!-- This example requires Tailwind CSS v2.0+ -->
 <header>
+<<<<<<< HEAD
   <div class="topbarpx-2 md:px-8 h-10 bg-primary flex items-center">
     <div class="cont">
       <div class="flex justify-center items-center text-white">
           <p class="text-base pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+=======
+  <div class="topbar px-2 md:px-8 h-10 bg-primary">
+    <div class=" grid grid-cols-3 h-full cont">
+      <div class="col-span-2 flex justify-center items-center text-white">
+        <div class="text-sm">
+          <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, iste.</p>
+        </div>
+      </div>
+      <div class="col-span-1 flex items-center text-white">
+        <div class="icon-instagram mx-2">
+>>>>>>> b8faaecb8fc274a24fca7582454587d2e174223b
           <a href="tel:+2348052835221" class="text-base">
               <i class="fas fa-phone transform rotate-90"></i>
-              <span class="pl-1 hidden md:inline">+2348052835221</span>
+              <span class="pl-2 text-base hidden md:inline">+2348052835221</span>
           </a>
-       
+        </div>
       </div>
     </div>
   </div>
@@ -98,6 +110,10 @@
       To: "opacity-0 scale-95"
   -->
 
+  
+
+
+
 
 
 		<div class="sticky top-0 bottom-0 z-20 overflow-y-auto h-auto mobile-menu hidden inset-x-0 transition transform origin-top-right md:hidden">
@@ -123,7 +139,7 @@
 	</div>
 </header>
 <div class="wrapper">
-  <a id="button" class="open_link-toggle bg-secondary z-10 text-center fixed rounded-full hidden h-12 w-12 hover:pointer hover:bg-primary active:bg-primary">
+  <a id="button" class="bg-secondary z-10 text-center fixed rounded-full hidden h-12 w-12 hover:pointer hover:bg-primary active:bg-primary">
     <i class="fas fa-arrow-up my-2.5 text-xl text-white"></i>
   </a>
 
