@@ -34,8 +34,9 @@ module.exports = {
 				head: ['Source Serif Pro']
 			},
 			backgroundImage: {
-				'hero-pattern': "url('../theme/asset/image/instructor-backgroung.jpg')",
-				'home-banner': "url('../theme/asset/image/home-hero-bg.jpg')"
+				'home-banner': "url('../theme/asset/image/hero.png')",
+				'project': "url('../theme/asset/image/project.png')",
+				'cta': "url('../theme/asset/image/cta.png')"
 			},
 		},
 	},

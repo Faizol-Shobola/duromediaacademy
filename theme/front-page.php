@@ -95,7 +95,7 @@ get_header();
 						</p>
 					</div>
 					<div class="button pt-5">
-                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-base text-white bg-secondary border border-secondary rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
+                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-base text-white bg-secondary border border-secondary rounded active:text-opacity-75 hover:bg-transparent hover:text-secondary focus:outline-none focus:ring">explore all courses</a>
 					</div>
 				</div>
 				<div class="w-full flex justify-center items-center md:py-0">
@@ -129,81 +129,24 @@ get_header();
     <div class="specialization py-10">
         <div class="cont grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 lg:gap-6 py-14">
             <!--  -->
-            <div class="relative block p-8 border border-black">
-               
-                <div class="mt-4 text-gray-500 sm:pr-8">
-                    <svg
-                    class="w-8 h-8 sm:w-10 sm:h-10"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
-                    ></path>
-                    </svg>
-        
-                    <h5 class="mt-4 text-xl font-bold text-gray-900">Science of Chemstry</h5>
-        
-                    <p class="mt-2 text-sm">
-                    You can manage phone, email and chat conversations all from a single mailbox.
-                    </p>
+            <div class="relative block p-8 rounded-sm shadow-md">
+                <div class="mt-4 sm:pr-8">
+                    <i class="fas fa-user-graduate text-4xl text-primary"></i>
+                    <p class="mt-2 text-lg">You can manage phone, email and chat conversations all from a single mailbox.</p>
                 </div>
             </div>
             <!--  -->
-            <div class="relative block p-8 border border-black">
-               
-                <div class="mt-4 text-gray-500 sm:pr-8">
-                    <svg
-                    class="w-8 h-8 sm:w-10 sm:h-10"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
-                    ></path>
-                    </svg>
-        
-                    <h5 class="mt-4 text-xl font-bold text-gray-900">Science of Chemstry</h5>
-        
-                    <p class="mt-2 text-sm">
-                    You can manage phone, email and chat conversations all from a single mailbox.
-                    </p>
+            <div class="relative block p-8 rounded-sm shadow-md">
+                <div class="mt-4 sm:pr-8">
+                    <i class="fas fa-clipboard-check text-4xl text-primary"></i>
+                    <p class="mt-2 text-lg">3+ Specialisations in each Programme</p>
                 </div>
             </div>
             <!--  -->
-            <dic class="relative block p-8 border border-black">
-               
-                <div class="mt-4 text-gray-500 sm:pr-8">
-                    <svg
-                    class="w-8 h-8 sm:w-10 sm:h-10"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
-                    ></path>
-                    </svg>
-        
-                    <h5 class="mt-4 text-xl font-bold text-gray-900">Science of Chemstry</h5>
-        
-                    <p class="mt-2 text-sm ">
-                    You can manage phone, email and chat conversations all from a single mailbox.
-                    </p>
+            <dic class="relative block p-8 rounded-sm shadow-md">
+                <div class="mt-4 sm:pr-8">
+                    <i class="fas fa-user-graduate text-4xl text-primary"></i>
+                    <p class="mt-2 text-lg ">70+% of graduates get promoted or land a better job.</p>
                 </div>
             </dic>
     
@@ -485,7 +428,7 @@ get_header();
     </div>
 	
     <!-- CTA section -->
-    <section class="bg-home-banner text-white">
+    <section class="bg-cta text-white bg-center bg-no-repeat bg-cover">
         <div class="max-w-screen-xl px-4 py-24 mx-auto lg:items-center lg:flex">
             <div class="max-w-3xl mx-auto text-center">
             <h1 class="text-3xl font-extrabold sm:text-5xl">Understand User Flow.</h1>
@@ -495,7 +438,7 @@ get_header();
             </p>
 
             <div class="flex flex-wrap justify-center gap-4 mt-8">
-                <a class="block w-full px-12 py-3 text-base font-medium text-white bg-primary border border-primary rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring" href="/get-started">
+                <a class="block w-full px-12 py-3 text-base font-medium text-white bg-primary border-2 border-primary rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring" href="/get-started">
                 Get Started
                 </a>
             </div>

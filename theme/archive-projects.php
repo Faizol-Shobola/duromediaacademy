@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-    <section class="text-white bg-gray-700">
+    <section class="bg-project text-white bg-center bg-no-repeat bg-cover">
         <div class="max-w-screen-xl px-4 py-32 mx-auto lg:items-center lg:flex">
             <div class="max-w-3xl mx-auto text-center">
             <h1 class="text-3xl font-extrabold sm:text-5xl">Understand User Flow.
