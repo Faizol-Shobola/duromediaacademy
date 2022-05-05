@@ -98,8 +98,8 @@ get_header();
                         <a href="<?php get_site_url() ?>/all-programmes" class="capitalize px-10 py-3 font-medium text-base text-white bg-secondary border border-secondary outline-none rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
 					</div>
 				</div>
-				<div class="w-full flex justify-center items-center md:py-0">
-					<div class="overflow-hidden w-96 h-96 ">
+				<div class="hidden w-full lg:flex justify-center items-center md:py-0">
+					<div class="overflow-hidden md:w-96 md:h-80 lg:w-80 lg:h-96">
 						<img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04';?>/duromediaacademy.png" alt=""  class="md:w-full h-auto">
 					</div>
 				</div>
