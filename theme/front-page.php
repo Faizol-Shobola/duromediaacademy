@@ -24,7 +24,7 @@ get_header();
 
 				 <div class="">
 					<div class="title p-2">
-						<h1 class="keyword text-sm">best graphics, web design and digital marketing training in lagos nigeria. </h1>
+						<h1 class="keyword text-sm">best graphics design training in lagos nigeria | best web design training in lagos nigeria | best digital marketing training in lagos nigeria. </h1>
 						<h2 class="text-4xl md:text-5xl text-white lg:text-6xl font-bold">Acquire a life-changing career</h2>
 					</div>
 					<!-- <div class="tagline py-3">

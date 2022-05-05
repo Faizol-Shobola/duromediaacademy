@@ -33,7 +33,7 @@
     <div class=" grid grid-cols-3 h-full cont">
       <div class="col-span-2 flex justify-center items-center text-white">
         <div class="text-sm">
-          <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, iste.</p>
+          <p class="">Graphics Design Training in Lagos Nigeria  |  Web Design Training in Lagos Nigeria </p>
         </div>
       </div>
       <div class="col-span-1 flex items-center text-white">
