@@ -48,7 +48,3 @@ get_header();
 
 <?php get_footer(); ?>
 
-
-
-
-<!-- object-[75%] sm:object-[25%] object-cover w-full h-1/4 opacity-25 sm:opacity-100 -->

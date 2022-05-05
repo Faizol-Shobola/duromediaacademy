@@ -33,7 +33,6 @@ get_header();
    
     <!-- Project Template -->
     <div class="project py-16">
-        <!-- <h2 class="font-semibold capitalize text-5xl pt- text-center">all project</h2> -->
         <div class="cont">
             <div class="grid md:grid-cols-2 gap-10">
                 <?php get_template_part('template-parts/content','projects');?>

@@ -33,7 +33,3 @@
         </div>
     </a>
 <?php endwhile; else: endif; ?>
-
-
-
-    <!-- <p class="capitalize leading-loose"><span class="mr-2 text-secondary">contributors</span><span class="rounded-2xl px-2 py-1 border-2 ">olanrewaju</span> <span class="rounded-2xl px-2 py-1 border-2 ">kenny</span> <span class="rounded-2xl px-2 py-1 border-2 ">olanrewaju</span> </p> -->
