@@ -43,11 +43,9 @@
 
                         <div class="mt-40">
                             <div class="md:transition-all transform translate-y-8 opacity-0  group-hover:opacity-100 group-hover:translate-y-0">
-                                <p class="text-sm text-white">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                                    perferendis hic asperiores quibusdam quidem voluptates doloremque
-                                    reiciendis nostrum harum. Repudiandae?
-                                </p>
+                                <div class="text-sm text-white">
+                                    <?php the_content()?>
+                                </div>
                             </div>
                         </div>
                     </div>

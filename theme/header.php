@@ -39,8 +39,8 @@
       <div class="col-span-1 flex items-center text-white">
         <div class="icon-instagram mx-2">
           <a href="tel:+2348052835221" class="text-base">
-              <i class="fas fa-phone transform rotate-90"></i>
-              <span class="pl-2 text-base hidden md:inline">+2348052835221</span>
+            <i class="fas fa-phone transform rotate-90"></i>
+            <span class="pl-2 text-base hidden md:inline">+2348052835221</span>
           </a>
         </div>
       </div>
