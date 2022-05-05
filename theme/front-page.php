@@ -95,11 +95,7 @@ get_header();
 						</p>
 					</div>
 					<div class="button pt-5">
-<<<<<<< HEAD
-                        <a href="appointment.html" class="capitalize px-10 py-3 font-medium text-base text-white bg-secondary border border-secondary rounded active:text-opacity-75 hover:bg-transparent hover:text-secondary focus:outline-none focus:ring">explore all courses</a>
-=======
                         <a href="<?php get_site_url() ?>/all-programmes" class="capitalize px-10 py-3 font-medium text-base text-white bg-secondary border border-secondary outline-none rounded active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">explore all courses</a>
->>>>>>> b8faaecb8fc274a24fca7582454587d2e174223b
 					</div>
 				</div>
 				<div class="w-full flex justify-center items-center md:py-0">
@@ -135,8 +131,8 @@ get_header();
             <!--  -->
             <div class="relative block p-8 rounded-sm shadow-md">
                 <div class="mt-4 sm:pr-8">
-                    <i class="fas fa-user-graduate text-4xl text-primary"></i>
-                    <p class="mt-2 text-lg">You can manage phone, email and chat conversations all from a single mailbox.</p>
+                    <i class="fas fa-users text-4xl text-primary"></i>
+                    <p class="mt-2 text-lg">Learn from industry professionals</p>
                 </div>
             </div>
             <!--  -->
@@ -401,18 +397,10 @@ get_header();
     <section class="bg-cta text-white bg-center bg-no-repeat bg-cover">
         <div class="max-w-screen-xl px-4 py-24 mx-auto lg:items-center lg:flex">
             <div class="max-w-3xl mx-auto text-center">
-            <h1 class="text-3xl font-extrabold sm:text-5xl">Understand User Flow.</h1>
-
-            <p class="max-w-xl mx-auto mt-4 sm:leading-relaxed sm:text-xl">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!
-            </p>
+            <h3 class="text-3xl font-extrabold sm:text-4xl capitalize leading-6">Discover what Duromedia Academy has to offer.</h3>
 
             <div class="flex flex-wrap justify-center gap-4 mt-8">
-<<<<<<< HEAD
-                <a class="block w-full px-12 py-3 text-base font-medium text-white bg-primary border-2 border-primary rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring" href="/get-started">
-=======
                 <a href="<?php get_site_url() ?>/all-programmes" class="block w-full px-12 py-3 text-base font-medium text-white bg-primary border border-primary rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">
->>>>>>> b8faaecb8fc274a24fca7582454587d2e174223b
                 Get Started
                 </a>
             </div>

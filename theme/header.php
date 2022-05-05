@@ -29,12 +29,6 @@
 <div class="flex flex-col  min-h-screen">
 <!-- This example requires Tailwind CSS v2.0+ -->
 <header>
-<<<<<<< HEAD
-  <div class="topbarpx-2 md:px-8 h-10 bg-primary flex items-center">
-    <div class="cont">
-      <div class="flex justify-center items-center text-white">
-          <p class="text-base pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-=======
   <div class="topbar px-2 md:px-8 h-10 bg-primary">
     <div class=" grid grid-cols-3 h-full cont">
       <div class="col-span-2 flex justify-center items-center text-white">
@@ -44,10 +38,9 @@
       </div>
       <div class="col-span-1 flex items-center text-white">
         <div class="icon-instagram mx-2">
->>>>>>> b8faaecb8fc274a24fca7582454587d2e174223b
           <a href="tel:+2348052835221" class="text-base">
-              <i class="fas fa-phone transform rotate-90"></i>
-              <span class="pl-2 text-base hidden md:inline">+2348052835221</span>
+            <i class="fas fa-phone transform rotate-90"></i>
+            <span class="pl-2 text-base hidden md:inline">+2348052835221</span>
           </a>
         </div>
       </div>

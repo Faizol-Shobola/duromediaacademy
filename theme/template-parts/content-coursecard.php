@@ -1,9 +1,9 @@
 
             <div class="relative block bg-black group " href="">
-                <img  src="https://www.hyperui.dev/photos/man-6.jpeg" alt="" 
-                    class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75 opacity-50"
+                <img  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04';?>/ccourse.png" alt="" 
+                    class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-30"
                 />
-                <div class="relative p-12">
+                <div class="relative px-6 py-8 sm:p-12">
                     <div class="mt-72">
                     <div class="">
                         <p class="text-2xl font-bold text-secondary capitalize">Crash course</p>
@@ -18,10 +18,10 @@
                 </div>
             </div>
             <div class="relative block bg-black group" href="">
-                <img  src="https://www.hyperui.dev/photos/man-6.jpeg" alt="" 
-                    class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75 opacity-50"
+                <img  src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['baseurl'].'/2021/04';?>/fcourse.png" alt="" 
+                    class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-30"
                 />
-                <div class="relative p-12">
+                <div class="relative px-6 py-8 sm:p-12">
                     <div class="mt-72">
                     <div class="">
                         <p class="text-2xl font-bold text-secondary capitalize">Complete bootcamp</p>
